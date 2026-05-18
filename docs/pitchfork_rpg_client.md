@@ -1,12 +1,14 @@
-# Pitchfork Web App Product Concept
+# Pitchfork RPG Client Product Concept
 
 ## Product Summary
 
-Pitchfork should begin as a single-player, text-heavy, browser-based life-powered gathering and crafting RPG.
+The Pitchfork RPG client should begin as a single-player, text-heavy, browser-based life-powered gathering and crafting RPG.
+
+Pitchfork itself is the accounting, token, contract, ledger, and eventual crypto layer. Pancakes is the broader human-facing life system. The Pitchfork RPG client is one alternate interface to that accounting layer, more tightly coupled to the magical mechanics, lore, crafting, and symbolic economy.
 
 The player does not simply manage habits. The player synchronizes ordinary life with a symbolic magical world. Walking, sleeping, studying, cooking, cleaning, resting, journaling, exercising, organizing, caregiving, and creating become forms of magical participation.
 
-The first product should be inspired by:
+This client should be inspired by:
 
 - **Kingdom of Loathing:** low-friction browser RPG structure, daily actions, quirky writing, simple screens, inventory, crafting, and location-based play.
 - **Habitica:** real-life habits and routines power progress.
@@ -25,19 +27,19 @@ My life felt connected to a world.
 
 ## One-Sentence Pitch
 
-Pitchfork is a life-powered fantasy RPG where real-world care, rhythm, learning, movement, rest, and stewardship become magical materials used to craft relics, restore sanctuaries, deepen identity, and eventually participate in a shared symbolic economy.
+The Pitchfork RPG client is a life-powered fantasy RPG where real-world care, rhythm, learning, movement, rest, and stewardship become magical materials used to craft relics, restore sanctuaries, deepen identity, and eventually participate in a shared symbolic economy.
 
 ## Collaborator-Facing Summary
 
-Pitchfork is a game about making invisible forms of human value visible. Many games reward conquest, extraction, accumulation, and combat. Pitchfork rewards cultivation: walking, sleeping, cooking, studying, maintaining a household, caring for others, reflecting, organizing, resting, and creating.
+The Pitchfork RPG client is a game about making invisible forms of human value visible. Many games reward conquest, extraction, accumulation, and combat. This client rewards cultivation: walking, sleeping, cooking, studying, maintaining a household, caring for others, reflecting, organizing, resting, and creating.
 
-The first product is intentionally modest: a single-player browser RPG with text, inventory, recipes, daily rhythm, and sanctuary progression. But the larger design direction is broad. Pitchfork can grow into a multi-client ecosystem where different real-life domains become portals into the same magical world, and eventually into a shared MMO-like civilization animated by ordinary human care.
+The first RPG client is intentionally modest: a single-player browser RPG with text, inventory, recipes, daily rhythm, and sanctuary progression. But the larger design direction is broad. Pitchfork can support a multi-client ecosystem where different real-life domains become portals into the same accounting layer, shared magical world, and eventually into a shared MMO-like civilization animated by ordinary human care.
 
 The crypto and economics layer is not the starting point for the player. It is the deeper substrate. Ownership, contracts, escrows, ledgers, guild treasuries, capped participation rewards, and cooperative pools should emerge as magical systems only after the core gathering and crafting loop feels meaningful.
 
 ## Core Promise
 
-Pitchfork turns lived activity into magical presence.
+The Pitchfork RPG client turns lived activity into magical presence.
 
 The product should make the player feel:
 
@@ -47,7 +49,7 @@ The player is not being optimized. They are not being judged by productivity met
 
 ## Product Positioning
 
-Pitchfork is not:
+The Pitchfork RPG client is not:
 
 - A generic todo list.
 - A productivity dashboard with fantasy decoration.
@@ -56,13 +58,13 @@ Pitchfork is not:
 - A domestic labor marketplace.
 - A system for surveillance or behavioral wage labor.
 
-Pitchfork is:
+The Pitchfork RPG client is:
 
 - A life-powered RPG.
 - A gathering and crafting game.
 - A symbolic economy of care, rhythm, and stewardship.
 - A fantasy interface for real-world activity.
-- A long-term foundation for contracts, guilds, trade, and cooperative economies.
+- An interface to the long-term Pitchfork foundation for contracts, guilds, trade, and cooperative economies.
 
 The first product should work even if the player never thinks about crypto. The crypto-inspired systems should appear first as fantasy mechanics: soul sigils, essence, relics, covenants, sealed rituals, ledgers, rune keepers, and guild vaults.
 
@@ -264,7 +266,7 @@ The emotional tone should be:
 
 ## Core Product Loop
 
-The first web app loop should be:
+The first RPG client loop should be:
 
 1. The player opens their Sanctuary dashboard.
 2. They choose or review daily rituals.
@@ -1956,7 +1958,7 @@ Mitigation:
 
 ## What Makes This Direction Stronger
 
-The previous web app direction centered on tasks becoming contracts. That is still useful, but it risks feeling like a productivity app.
+The previous app direction centered on tasks becoming contracts. That is still useful for the Pitchfork accounting layer, but it risks making the RPG client feel like a productivity app.
 
 The new direction centers on life activity becoming magical material.
 
