@@ -31,6 +31,38 @@ I spend those credits later with another person or household.
 
 The indirect model is important because it removes the need for perfect one-to-one reciprocity. A person can contribute where they are able and receive help from someone else later.
 
+## Tasks Are Not Services
+
+Pancakes should distinguish personal or household tasks from Pancakes Earth services.
+
+Tasks:
+
+- Belong to a person, household, or node.
+- Can be private.
+- Include chores, routines, reminders, plans, and household responsibilities.
+- May produce internal recognition, materials, or household state.
+- Do not automatically become available to outsiders.
+
+Services:
+
+- Are offered to or requested from other people.
+- Have a visibility scope.
+- May involve credits, money, barter, or covenant rewards.
+- Need trust, safety, scheduling, and dispute handling.
+- May appear in Pancakes Earth or a local job board.
+
+The same real-world action can be represented differently depending on context.
+
+Example:
+
+```text
+Task: Vacuum our living room.
+Service: Offer vacuuming help to three nearby households.
+Pitchfork interpretation: Gather Order Salt and reduce household entropy.
+```
+
+This separation matters because service markets create social and economic risk that ordinary private task tracking should not inherit.
+
 ## Service Categories
 
 Initial categories could include:
@@ -118,6 +150,64 @@ Early credits should be:
 
 The credit system should avoid pretending that every form of care has a perfect market price. Credits are coordination tools, not a complete theory of human value.
 
+## Rate Neutrality
+
+Pancakes should avoid centrally pricing ordinary work.
+
+The platform can define rules, units, caps, and safety boundaries, but it should not declare a universal exchange rate for "doing the dishes" or "vacuuming a carpet."
+
+Better:
+
+- Local users propose rates.
+- Households ratify internal rates.
+- Guilds define their own norms.
+- Service providers can accept, decline, or negotiate.
+- Nodes can publish local guidance without forcing global prices.
+- Pancakes can show historical local ranges where privacy allows.
+
+Avoid:
+
+- A universal chore price table.
+- Platform-imposed wages for intimate household work.
+- One global ranking of chores, care, study, rest, or skill.
+- Hidden algorithmic pricing.
+
+For consistency, Pancakes can still define conversion rules between local credits and Pitchfork symbolic rewards. Those rules should be transparent, capped, and node-aware.
+
+## Baseline Credits and UBI
+
+Earlier design explored a Universal Basic Income-like credit model.
+
+Carry forward only as a cautious future direction:
+
+- A node or sponsor may issue baseline Pancakes credits.
+- Baseline credits should support participation, not create pressure.
+- Additional credits may come from services, household covenants, or cooperative contributions.
+- Credits should not become a substitute for wages, benefits, public support, or care obligations.
+
+This overlaps with Pitchfork's symbolic basic income model. Any real-money version belongs behind the economic safeguards in [Pitchfork Economics](pitchfork_economics.md).
+
+## Family Accounts and Child Companion Mode
+
+The early design imagined Pancakes as a parent or household companion and Pitchfork as a child-friendly magical layer.
+
+Possible model:
+
+- A family or household has one subscription or node account.
+- Children or household members have linked profiles.
+- Household tasks can be assigned, witnessed, and ratified.
+- Rewards can be split among linked profiles.
+- Pitchfork presents appropriate rewards as tokens, materials, spells, or sanctuary progress.
+
+Guardrails:
+
+- Children should not be pushed into public service markets by default.
+- Household chores should not become coercive surveillance.
+- Parents or guardians should not be the only authority if a child's safety or data rights are at stake.
+- Rewards should teach responsibility and care without turning family life into wage labor.
+
+Subscription-linked mentor tokens were an early monetization idea. If used, they should be tied to the account or household, not multiplied by the number of children in a way that creates farming incentives.
+
 ## Ratified Household Covenants
 
 Household chores and care work can be represented as covenants.
@@ -145,6 +235,30 @@ Ratification means:
 - Disputes have a resolution path.
 
 Prefer **steward ratification** for social approval. Use **custodian** for technical operation unless the same person holds both roles.
+
+## Domain-to-Essence Framework
+
+The service exchange should eventually use the same domain mapping as Pitchfork.
+
+Any domain can define:
+
+- Activities.
+- Categories.
+- Colors or attunements.
+- Materials.
+- Essences.
+- Credit rules.
+- Privacy level.
+- Verification model.
+
+Example domains:
+
+- Household: groceries, cleaning, cooking, school logistics, laundry.
+- School: subjects, projects, attendance, study sessions.
+- Health-adjacent tracking: movement, nutrition, rest, reflection.
+- Service exchange: gardening, tutoring, transport, repair.
+
+This lets new domains plug into the same accounting substrate without forcing every domain into the same UX.
 
 ## Pancakes Earth
 
@@ -243,6 +357,30 @@ Guardrail:
 > Pitchfork should not turn real-world service work into uncapped game yield.
 
 Pancakes credits and Pitchfork rewards should remain capped, transparent, and designed to avoid coercion.
+
+## Physical Tokens and Exchange Nodes
+
+Earlier design explored physical Pancakes or Pitchfork tokens: for example copper rounds, silver rounds, serial-numbered objects, or redeemable artifacts.
+
+This is distant future.
+
+Useful idea:
+
+- Physical objects can make symbolic value tangible.
+- A token can represent membership, achievement, credit, event participation, or a redeemable claim.
+- Exchange should not depend on a single central issuer.
+
+If physical tokens ever exist, Pancakes needs exchange-node rules:
+
+- How tokens are authenticated.
+- Who can issue them.
+- Who can redeem them.
+- How serial numbers or keys are managed.
+- How fraud is handled.
+- Whether physical tokens represent money, symbolic credit, collectible value, or node-local privileges.
+- How to avoid making the project operator a choke point for the whole economy.
+
+This should not precede a healthy internal credit system.
 
 ## Anti-Gig-Economy Position
 

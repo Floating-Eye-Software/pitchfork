@@ -10,8 +10,11 @@ Pitchfork and Pancakes are parallel efforts:
 - **Pancakes** is the human layer.
 - **Pitchfork RPG** is a magical client built on top of Pitchfork.
 - **Redwitch** is a possible body-rhythm and period-tracking client.
+- **Pancakes Identity** is a shared identity and permissions layer that should sit above individual clients.
 
 The exact integration model can evolve. The important architectural idea is that Pitchfork should provide durable accounting primitives, while Pancakes and its clients provide humane interfaces for living with those primitives.
+
+The broader power-to-the-people direction is described in [Non-Exploitative Infrastructure](non_exploitative_infrastructure.md): Pancakes should help replace extractive platform defaults with local, cooperative, consent-based tools.
 
 ## One-Sentence Summary
 
@@ -237,6 +240,7 @@ One real-life event
 ## Open Questions
 
 - Does Pancakes own identity, or does Pitchfork own identity?
+- Should identity be a separate Pancakes Identity layer shared by Pancakes, Pancakes Earth, Pitchfork, Redwitch, UBI-like systems, and nodes?
 - Is Pitchfork a Python package, a local service, or both?
 - Do clients share one database at first, or does Pitchfork own its own database?
 - Which concepts belong in Pancakes Core versus Pitchfork?

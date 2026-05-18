@@ -221,6 +221,8 @@ This does not require rejecting hosted Pancakes. Hosted Pancakes can remain usef
 
 But hosted Pancakes should not become the only legitimate place where Pancakes can exist.
 
+The broader doctrine is described in [Non-Exploitative Infrastructure](non_exploitative_infrastructure.md).
+
 ## Collective Data Value
 
 A distant-future Pancakes node could let a group earn value from aggregate data.
