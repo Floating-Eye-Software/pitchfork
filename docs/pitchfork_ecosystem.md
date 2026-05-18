@@ -35,6 +35,8 @@ It is the product family, domain, and user-facing container for ordinary life:
 
 The name Pancakes fits the project because pancakes are ordinary, embodied, domestic, social, and cross-cultural. Nearly every culture has some form of pancake. That makes the name a good symbol for a life app that wants to recognize common human practices without reducing them to productivity metrics.
 
+Pancakes also carries the mutual-service exchange direction: household help, chores, local services, indirect credits, Pancakes Earth, and community coordination. That layer is described in [Pancakes Service Exchange](pancakes_service_exchange.md).
+
 ### Pitchfork
 
 Pitchfork is the base accounting layer.
@@ -120,6 +122,26 @@ Possible roles:
 
 The `.love` domain can carry more experimental, relational, and cooperative systems without forcing those risks into the stable `.ca` product.
 
+### Self-Hosted Pancakes Nodes
+
+Pancakes should also support community-run nodes.
+
+Possible operators:
+
+- Individuals.
+- Families.
+- Households.
+- Guilds.
+- Circles.
+- Cooperatives.
+- Schools.
+- Clinics.
+- Mutual-aid groups.
+
+These nodes let groups retain control over personal logs, ritual history, local policies, cooperative pools, and selected Pitchfork accounting state without depending on the hosted `pancakes.ca` or `pancakes.love` servers.
+
+The governance model is described in [Pancakes Node Infrastructure](pancakes_node_infrastructure.md).
+
 ## Integration Principles
 
 ### Human Layer First
@@ -186,6 +208,8 @@ These concepts may appear differently across clients but should eventually share
 | History | Timeline | Codex | Ledger |
 | Shared group | Household, circle | Guild | DAO or cooperative |
 | Shared store | Pool | Guild vault | Treasury |
+| Service exchange | Help, chore, job board listing | Quest, covenant, ritual work | Marketplace or work contract |
+| Map layer | Pancakes Earth | Ley map, local sanctuary map | Location-aware oracle input |
 
 ## Early Build Guidance
 
@@ -218,6 +242,10 @@ One real-life event
 - Which concepts belong in Pancakes Core versus Pitchfork?
 - How much of the old token/contract/commodity model should survive?
 - Should `pancakes.love` be a beta for all experiments or specifically the blockchain-connected environment?
+- How should Pancakes credits relate to Pitchfork materials, essences, and rewards?
+- Can Pancakes Earth provide local service discovery without becoming location surveillance?
+- What is the minimum viable self-hosted Pancakes node?
+- How should self-hosted nodes handle export, import, backups, identity, and federation?
 - How should Redwitch protect sensitive reproductive health data while still participating in the broader ecosystem?
 
 ## Working Assumption
