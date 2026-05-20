@@ -372,6 +372,34 @@ The system should distinguish:
 - Economic settlement.
 - Public or group-visible state.
 
+## Event Streams And Projection Buses
+
+Some parts of the system may benefit from IRC-like append-only event streams.
+
+These can act as:
+
+- Projection buses.
+- Social ledgers.
+- Guild activity streams.
+- World-state feeds.
+- Covenant activity channels.
+- Debuggable historical flow.
+
+Example channels:
+
+```text
+#guild.stonebound
+#world.leyroad
+#ledger.archive
+#rituals.personal
+```
+
+These streams should not replace databases, permission checks, projections, retention policy, or deletion/export workflows.
+
+They are useful as flow, not as the whole platform state.
+
+Each stream should have an explicit owner, scope, data classification, read/write permissions, retention policy, and rule for whether raw, derived, or projected events are allowed.
+
 ## Raw Events vs Derived State
 
 Raw events may include intimate context.
