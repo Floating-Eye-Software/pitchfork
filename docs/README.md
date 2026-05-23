@@ -9,6 +9,7 @@ The archived documents are still important source material. They preserve the or
 - [Pitchfork System Overview](pitchfork_overview.md): defines the full architecture across Pancakes, Pitchfork, identity, nodes, clients, projections, privacy boundaries, economics, and early build sequence.
 - [Pitchfork Ecosystem](pitchfork_ecosystem.md): defines the relationship between Pitchfork, Pancakes, the RPG client, and possible future clients.
 - [Pitchfork Privacy and Security](pitchfork_privacy_security.md): defines local-first sensitive data handling, permission boundaries, identity/access controls, event-stream privacy, backups, exports, AI boundaries, and phased security work.
+- [Pitchfork Client API Spec](pitchfork_client_api_spec.md): rough client-facing contract for nodes, identity, permission grants, events, settlements, projections, audit, exports, and security hard lines.
 - [Pitchfork Economics](pitchfork_economics.md): defines the economic philosophy, social risks, capped symbolic rewards, cooperative pools, and real-money boundaries.
 - [Pitchfork RPG Client](pitchfork_rpg_client.md): defines the life-powered browser RPG concept, MVP loop, domains, resources, mentors, crafting, covenants, and long-term multiplayer direction.
 - [Pitchfork Roguelike: The Nexus](pitchfork_roguelike.md): defines the Nexus as a projection-driven roguelike settlement layer for vendors, covenants, ledgers, factions, districts, and multi-client state.
@@ -29,15 +30,16 @@ The archived documents are still important source material. They preserve the or
 1. Start with [Pitchfork System Overview](pitchfork_overview.md).
 2. Read [Pitchfork Ecosystem](pitchfork_ecosystem.md) for the broader Pancakes/Pitchfork relationship.
 3. Read [Pitchfork Privacy and Security](pitchfork_privacy_security.md) before implementing identity, permissions, cross-client sharing, sensitive clients, AI, exports, event streams, or analytics.
-4. Read [Pitchfork Economics](pitchfork_economics.md) before implementing markets, tokens, contracts, rewards, crypto, or anything with real-world value.
-5. Read [Pitchfork RPG Client](pitchfork_rpg_client.md) before implementing gameplay.
-6. Read [Pitchfork Roguelike: The Nexus](pitchfork_roguelike.md) before implementing settlement, vendor, faction, covenant-board, ledger-archive, or multi-client projection features.
-7. Read [Ambient Symbolic Clients](pitchfork_client_ambience.md) before implementing Minecraft-like, realtime, emotional ecology, environmental projection, or symbolic ambience features.
-8. Read [Pancakes Service Exchange](pancakes_service_exchange.md) before implementing credits, chores, household covenants, service listings, or Pancakes Earth.
-9. Read [Pancakes Node Infrastructure](pancakes_node_infrastructure.md) before making decisions about hosting, identity, exports, federation, or group/private data.
-10. Read [Non-Exploitative Infrastructure](non_exploitative_infrastructure.md) before adding AI, feeds, social sharing, cloud sync, identity, search, media, or productivity-style features.
-11. Use [Legacy Carry-Forward](pitchfork_legacy_carry_forward.md) when mining the archive for reusable ideas.
-12. Use [ChatGPT Export Inventory](chatgpt_export_inventory.md) when mining old transcript exports.
+4. Read [Pitchfork Client API Spec](pitchfork_client_api_spec.md) before building any Pancakes or Pitchfork client integration.
+5. Read [Pitchfork Economics](pitchfork_economics.md) before implementing markets, tokens, contracts, rewards, crypto, or anything with real-world value.
+6. Read [Pitchfork RPG Client](pitchfork_rpg_client.md) before implementing gameplay.
+7. Read [Pitchfork Roguelike: The Nexus](pitchfork_roguelike.md) before implementing settlement, vendor, faction, covenant-board, ledger-archive, or multi-client projection features.
+8. Read [Ambient Symbolic Clients](pitchfork_client_ambience.md) before implementing Minecraft-like, realtime, emotional ecology, environmental projection, or symbolic ambience features.
+9. Read [Pancakes Service Exchange](pancakes_service_exchange.md) before implementing credits, chores, household covenants, service listings, or Pancakes Earth.
+10. Read [Pancakes Node Infrastructure](pancakes_node_infrastructure.md) before making decisions about hosting, identity, exports, federation, or group/private data.
+11. Read [Non-Exploitative Infrastructure](non_exploitative_infrastructure.md) before adding AI, feeds, social sharing, cloud sync, identity, search, media, or productivity-style features.
+12. Use [Legacy Carry-Forward](pitchfork_legacy_carry_forward.md) when mining the archive for reusable ideas.
+13. Use [ChatGPT Export Inventory](chatgpt_export_inventory.md) when mining old transcript exports.
 
 ## Working Rule
 
