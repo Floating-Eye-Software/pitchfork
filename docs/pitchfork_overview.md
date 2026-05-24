@@ -252,6 +252,7 @@ It may be:
 - Institutional.
 - Hosted.
 - Self-hosted.
+- Virtual.
 
 Nodes allow groups to retain control over:
 
@@ -277,6 +278,7 @@ Nodes allow groups to retain control over:
 | Guild node | Shared rituals, guild vaults, cooperative restoration, covenants, and optional federation |
 | Institutional node | Role-based access, audit trails, policy enforcement, and strict privacy controls |
 | Hosted node | Convenient public entry point for users who cannot or do not want to self-host |
+| Virtual node | Lightweight node abstraction for mobile, web, offline, or hosted clients that cannot run a full server |
 
 ## Hosted Domains
 
@@ -290,6 +292,39 @@ The likely hosted shape is:
 Hosted Pancakes should be useful, but not mandatory.
 
 The long-term architecture should allow hosted Pancakes to become one node among many, not the unavoidable center of the network.
+
+## Virtual Nodes
+
+Mobile apps, lightweight web clients, and offline clients may need a node abstraction even when they are not backed by a full always-on server.
+
+A virtual node is a node-compatible boundary backed by local device storage, hosted infrastructure, sync adapters, mobile databases, or future peer systems.
+
+Virtual nodes should expose the same conceptual contract as full nodes:
+
+- Node identity.
+- Node type.
+- Policy version.
+- Identity claims.
+- Permission grants.
+- Pitchfork accounting access.
+- Audit surfaces.
+- Export and import.
+- Retention rules.
+- Projection permissions.
+
+The point is client compatibility. A client should bind to node context, not to a specific deployment environment.
+
+The same client should be able to work against:
+
+- `pancakes.ca`.
+- `pancakes.love`.
+- `localhost`.
+- A household node.
+- A guild node.
+- A mobile virtual node.
+- A future federated node.
+
+This keeps hosted infrastructure useful without making hosted Pancakes the only legitimate place the ecosystem can exist.
 
 ## Community Data Stewardship
 

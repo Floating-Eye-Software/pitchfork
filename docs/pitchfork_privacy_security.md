@@ -629,6 +629,90 @@ Pancakes should not present clinical trial participation as a game quest.
 
 ---
 
+# Data Sovereignty
+
+Data sovereignty is the principle that data remains governed by the people, communities, jurisdictions, and consent relationships it comes from.
+
+For Pancakes and Pitchfork, this means data is not ownerless platform input. It is part of a relationship between an actor, a node, a client, a purpose, and a governance boundary.
+
+The system should support:
+
+- Local and community-controlled storage.
+- Node-level governance.
+- Granular permission grants.
+- Revocable consent for future use.
+- Export and exit rights.
+- Purpose limitation.
+- Restricted secondary use.
+- Transparent access logs.
+- Clear separation between raw records, derived events, symbolic projections, and aggregate products.
+
+## Sovereignty Design Rules
+
+Do not assume implicit consent because data is available, technically readable, or useful for a feature.
+
+Do not bundle broad consent into general terms of service.
+
+Do not collect data the user did not intentionally enter, authorize, or connect.
+
+Do not scrape private or community data into training, analytics, search, or recommendation systems.
+
+Do not make essential functionality depend on broad sharing, AI processing, research participation, or data resale.
+
+Do build narrow consent flows that say:
+
+- What data class is used.
+- Which client or service uses it.
+- For what purpose.
+- Whether data leaves the device or node.
+- Whether AI processing is involved.
+- Whether the result is raw, derived, symbolic, aggregate, or economic.
+- How permission can be revoked.
+- How records can be exported or deleted.
+
+## Community Data
+
+Some data is not only individual. Household, guild, cooperative, institutional, cultural, and community data may carry collective governance obligations.
+
+When a node handles community data, the node governance model should answer:
+
+- Who has authority to approve collection?
+- Who has authority to approve sharing?
+- Who can revoke future use?
+- Who can export or migrate the data?
+- Who benefits from any data product?
+- Which uses are forbidden regardless of member consent?
+- Which external frameworks or community protocols apply?
+
+If a project involves Indigenous data, cultural data, traditional knowledge, land-based data, or community-specific data, it needs explicit community governance. Frameworks such as OCAP and CARE are relevant references, but they are not generic checkboxes. The applicable community's own protocols, authority, and consent process matter.
+
+## Deletion And Retention
+
+Raw intimate records should be deletable wherever feasible.
+
+Revocation must stop future use.
+
+Some minimized records may remain where needed for audit, security, legal compliance, or covenant/economic consistency. Those retained records should avoid sensitive content, preserve only what is necessary, and remain governed by retention policy.
+
+The distinction matters:
+
+```text
+delete raw Redwitch cycle details
+preserve minimal audit record that a permission was revoked
+```
+
+Not:
+
+```text
+keep sensitive raw records because they once contributed to a projection
+```
+
+For sensitive domains, deletion should favor the person or community whose data is at stake unless a clearly documented obligation requires limited retention.
+
+The broader project doctrine is described in [Pitchfork Data Sovereignty](pitchfork_data_sovereignty.md).
+
+---
+
 # Event Streams And Projection Buses
 
 Design notes propose IRC-like structures as append-only event streams, social ledgers, or projection buses.

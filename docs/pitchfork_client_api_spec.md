@@ -82,6 +82,60 @@ Federation, hosted sync, and remote node-to-node calls should come later. The ev
 
 ---
 
+# Node Interface
+
+Clients should target the Node Interface, not a specific deployment shape.
+
+The Node Interface is the conceptual boundary that lets the same client operate against:
+
+- Official hosted nodes.
+- Self-hosted nodes.
+- Household nodes.
+- Guild nodes.
+- Cooperative nodes.
+- Institutional nodes.
+- Virtual mobile nodes.
+- Virtual offline nodes.
+- Future federated nodes.
+
+A node implementation may be a local Python module, a node-local HTTP API, a hosted API, a mobile database plus sync adapter, or a future peer system. The client-facing contract should remain stable across those implementations.
+
+At minimum, the Node Interface must provide:
+
+- Active node context.
+- Node policy version.
+- Actor identity claims.
+- Permission grant lookup and revocation.
+- Pitchfork event submission.
+- Settlement and projection access.
+- Audit surfaces for sensitive access.
+- Export and import workflows.
+- Retention policy metadata.
+
+Clients should resolve an active node before recording events or requesting projections:
+
+```text
+Client
+-> Node Resolver
+-> Active Node Context
+-> Identity Layer
+-> Permission Layer
+-> Pitchfork API
+-> Projection Systems
+-> Client UX
+```
+
+The Node Resolver determines:
+
+- Active node.
+- Connection method.
+- Local or offline state.
+- Sync policy.
+- Federation permissions.
+- Identity requirements.
+
+---
+
 # Required Concepts
 
 ## Node
@@ -107,6 +161,51 @@ Example node types:
 - cooperative
 - institutional
 - hosted
+- virtual_hosted
+- virtual_mobile
+- virtual_offline
+
+## Virtual Node
+
+A virtual node is a node abstraction with the same external contract as a full node, but backed by simpler infrastructure.
+
+It may be backed by:
+
+- Local device persistence.
+- A mobile database.
+- Browser storage.
+- Hosted infrastructure.
+- A sync adapter.
+- Future peer systems.
+
+Virtual nodes exist so web and mobile clients can remain node-aware without requiring every user to run a server.
+
+Minimum fields:
+
+```text
+VirtualNode
+- id
+- type
+- display_name
+- policy_version
+- backing_store
+- sync_mode
+- offline_capable
+- export_supported
+- created_at
+```
+
+Allowed initial `sync_mode` values:
+
+```text
+none
+manual
+deferred
+hosted
+peer
+```
+
+Virtual nodes must still support permission grants, data classification, audit metadata, retention policy metadata, and export/import where practical. A virtual node is not a shortcut around privacy or governance.
 
 ## Client
 
@@ -807,4 +906,3 @@ If a client cannot explain:
 - how it can be deleted or retained;
 
 then the client is not ready to integrate with Pitchfork.
-
