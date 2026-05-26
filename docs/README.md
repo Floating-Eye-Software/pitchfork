@@ -17,6 +17,9 @@ The archived documents are still important source material. They preserve the or
 - [Ambient Symbolic Clients](pitchfork_client_ambience.md): defines symbolic environmental projection for Minecraft-like worlds, ambient clients, emotional ecology, and permissioned atmosphere.
 - [Pancakes Service Exchange](pancakes_service_exchange.md): defines the original mutual-service, credits, job-board, Pancakes Earth, and household covenant direction.
 - [Pancakes Node Infrastructure](pancakes_node_infrastructure.md): defines self-hosted Pancakes nodes, community data stewardship, local ownership, and anti-oligarchy infrastructure goals.
+- [Pancakes Charter of Rights and Freedoms](pancakes_charter_of_rights.md): defines foundational rights for humane life computing, household sovereignty, consent, symbolic existence, and community governance.
+- [Embodied AI, Household Robotics, and Humane Life Computing](pancakes_embodied_ai.md): defines ecosystem guidance for domestic robotics, AI training data, household telemetry, and humane symbolic boundaries.
+- [Pitchfork Node Quality of Life Signals](pitchfork_node_quality_of_life.md): defines aggregate, ambient quality-of-life signals for node governance, support planning, fairness, and resilience.
 - [Non-Exploitative Infrastructure](non_exploitative_infrastructure.md): defines the broader power-to-the-people direction for replacing extractive platform defaults with local, cooperative, consent-based alternatives.
 - [Legacy Carry-Forward](pitchfork_legacy_carry_forward.md): records which older mechanics remain useful and how they should be reinterpreted under the current direction.
 - [ChatGPT Export Inventory](chatgpt_export_inventory.md): tracks old transcript sources and what has or has not been mined from them.
@@ -39,9 +42,12 @@ The archived documents are still important source material. They preserve the or
 9. Read [Ambient Symbolic Clients](pitchfork_client_ambience.md) before implementing Minecraft-like, realtime, emotional ecology, environmental projection, or symbolic ambience features.
 10. Read [Pancakes Service Exchange](pancakes_service_exchange.md) before implementing credits, chores, household covenants, service listings, or Pancakes Earth.
 11. Read [Pancakes Node Infrastructure](pancakes_node_infrastructure.md) before making decisions about hosting, identity, exports, federation, or group/private data.
-12. Read [Non-Exploitative Infrastructure](non_exploitative_infrastructure.md) before adding AI, feeds, social sharing, cloud sync, identity, search, media, or productivity-style features.
-13. Use [Legacy Carry-Forward](pitchfork_legacy_carry_forward.md) when mining the archive for reusable ideas.
-14. Use [ChatGPT Export Inventory](chatgpt_export_inventory.md) when mining old transcript exports.
+12. Read [Pancakes Charter of Rights and Freedoms](pancakes_charter_of_rights.md) before making decisions about telemetry, household sovereignty, AI training, symbolic abstraction, or community governance.
+13. Read [Embodied AI, Household Robotics, and Humane Life Computing](pancakes_embodied_ai.md) before adding robotics integrations, household sensing, embodied AI workflows, or AI-training participation.
+14. Read [Pitchfork Node Quality of Life Signals](pitchfork_node_quality_of_life.md) before implementing node-level aggregate metrics, public summaries, quality-of-life reviews, or support-planning dashboards.
+15. Read [Non-Exploitative Infrastructure](non_exploitative_infrastructure.md) before adding AI, feeds, social sharing, cloud sync, identity, search, media, or productivity-style features.
+16. Use [Legacy Carry-Forward](pitchfork_legacy_carry_forward.md) when mining the archive for reusable ideas.
+17. Use [ChatGPT Export Inventory](chatgpt_export_inventory.md) when mining old transcript exports.
 
 ## Working Rule
 
