@@ -516,3 +516,34 @@ within a node-governed ecosystem.
 ```
 
 The specification should evolve accordingly while preserving the richness and emotional depth of the original design.
+
+---
+
+# Future Public Surface
+
+Pitchfork RPG is expected to have its own public website once it becomes a
+separately managed project surface.
+
+This plan declares that future need without prematurely deciding:
+
+* the final repository,
+* domain name,
+* hosting provider,
+* deployment source,
+* launch date,
+* or whether the first public surface is a project page, playable client, or
+  both.
+
+Until Pitchfork RPG has its own repository, public identity and content
+decisions remain with the current Pitchfork RPG planning sources in
+`pitchfork`. Organization-level public-surface classification belongs in
+`fley-org`, and future domain, deployment, hosting, backup, TLS, and live-site
+verification belong in `site-ops`.
+
+The website should enter implementation planning only after:
+
+* Pitchfork RPG has an explicit project authority and lifecycle state,
+* its public audience and purpose are defined,
+* a product-safe description distinguishes current capability from future
+  design,
+* and `site-ops` accepts it as a managed future surface.
