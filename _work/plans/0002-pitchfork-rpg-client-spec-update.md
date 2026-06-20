@@ -1,6 +1,8 @@
-# Pitchfork RPG Client Specification V2 Migration Plan
+# 0002 Pitchfork RPG Client Specification V2 Migration Plan
 
 ## Document Information
+
+**Status:** Todo
 
 **Document Name:** Pitchfork RPG Client Specification V2 Migration Plan
 

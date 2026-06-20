@@ -1,4 +1,4 @@
-# Pancakes Governance and Architecture Roadmap
+# 0001 Pancakes Governance and Architecture Roadmap
 
 ## Document Information
 
@@ -6,7 +6,7 @@
 
 **Document Type:** Planning Document
 
-**Status:** Working Draft
+**Status:** Todo
 
 **Purpose:** Track major governance, architecture, repository organization, and ecosystem design initiatives following the introduction of the Common Good and Stewardship models.
 
