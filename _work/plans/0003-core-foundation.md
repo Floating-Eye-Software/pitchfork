@@ -2,7 +2,7 @@
 
 ## Status
 
-Ready
+Blocked on `0004-local-testing-framework`.
 
 ## Purpose
 
@@ -167,7 +167,12 @@ This plan is complete when:
 
 ## Dependencies
 
-None.
+* `0004-local-testing-framework`
+
+Dedicated QMS V&V procedures are not a dependency for ordinary local
+engineering tests. If test results are later designated as controlled design
+verification evidence, the applicable approved QMS plan or procedure will
+define the additional execution and record controls.
 
 ## Follow-on Work
 

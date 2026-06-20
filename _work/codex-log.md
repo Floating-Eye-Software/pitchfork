@@ -34,3 +34,38 @@ Concise append-only summaries for Codex sessions.
   adjacent Pancakes working tree.
 - The organization repository registry now classifies Pitchfork workflow
   adoption as `adopted` in the adjacent `fley-org` working tree.
+
+---
+
+# codex-002 - Local Testing Framework Dependency
+
+**Plan:** `0004-local-testing-framework`
+**Priority:** P1
+**Status:** recorded
+**Timestamp:** 2026-06-20 EDT
+
+## Changes
+
+- Distinguished ordinary engineering tests from formal QMS-controlled design
+  verification evidence.
+- Determined that missing dedicated QMS V&V procedures do not block local
+  Pitchfork engineering tests.
+- Added Plan `0004-local-testing-framework` for pytest, Hypothesis, suite
+  structure, stable Make targets, deterministic isolation, coverage reporting,
+  clean-environment setup, and framework verification.
+- Marked Plan `0003-core-foundation` blocked on Plan 0004 and added three
+  sequenced implementation todos.
+- No plan was closed.
+
+## Verification
+
+- `make check-work`
+- `git diff --check`
+
+## Cross-Repository Context
+
+- The discovered dependency chain and the repository-workflow/GitHub-QMS
+  interface were documented in
+  `fley-org/reports/2026-06-20-pancakes-node-sitrep.md` in the adjacent
+  `fley-org` working tree.
+- Pancakes Plans 0006 and 0007 remain downstream of Pitchfork Plan 0003.

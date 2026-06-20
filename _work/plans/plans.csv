@@ -1,4 +1,5 @@
 id,status,track,priority,depends_on,notes
 0001-pancakes-governance-and-architecture-roadmap,todo,governance,P2,,establish ecosystem governance architecture repository boundaries and lifecycle direction
 0002-pitchfork-rpg-client-spec-update,todo,rpg,P2,,migrate the RPG specification to the node-aware Pitchfork client architecture
-0003-core-foundation,ready,core,P1,,build Pitchfork domain contracts deterministic settlement persistence interfaces packaging and tests
+0003-core-foundation,blocked,core,P1,0004-local-testing-framework,build Pitchfork domain contracts deterministic settlement persistence interfaces packaging and tests
+0004-local-testing-framework,ready,testing,P1,,establish pytest Hypothesis suite structure stable commands isolation and developer documentation
