@@ -1,0 +1,47 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pitchfork"
+version = "0.0.0"
+description = "Shared Pitchfork domain contracts and engine"
+requires-python = ">=3.10"
+
+[project.optional-dependencies]
+test = [
+  "coverage[toml]>=7.3",
+  "hypothesis>=6.88",
+  "pytest>=7.4",
+  "pytest-cov>=4.1",
+]
+
+[tool.setuptools]
+py-modules = []
+
+[tool.pytest.ini_options]
+minversion = "7.4"
+testpaths = ["tests"]
+addopts = [
+  "--strict-config",
+  "--strict-markers",
+  "-ra",
+  "-W", "error",
+]
+markers = [
+  "unit: isolated functions, components, or rules",
+  "contract: repository and public-interface compatibility",
+  "property: invariants exercised with generated cases",
+  "integration: local boundaries between components or processes",
+]
+
+[tool.coverage.run]
+branch = true
+source = ["scripts", "src"]
+
+[tool.coverage.report]
+show_missing = true
+skip_empty = true
+
+[tool.coverage.xml]
+output = ".test-results/coverage.xml"

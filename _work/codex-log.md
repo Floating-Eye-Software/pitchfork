@@ -69,3 +69,80 @@ Concise append-only summaries for Codex sessions.
   `fley-org/reports/2026-06-20-pancakes-node-sitrep.md` in the adjacent
   `fley-org` working tree.
 - Pancakes Plans 0006 and 0007 remain downstream of Pitchfork Plan 0003.
+
+---
+
+# codex-003 - Pitchfork Test Adapter Implementation
+
+**Plan:** `0004-local-testing-framework`
+**Priority:** P1
+**Status:** closed
+**Timestamp:** 2026-06-20 22:14 EDT
+
+## Changes
+
+- Added minimum project metadata and a dedicated test extra for pytest,
+  Hypothesis, coverage, and pytest-cov.
+- Added non-empty unit, contract, property, and integration adapter suites with
+  strict pytest configuration, deterministic Hypothesis behavior, and default
+  network prohibition.
+- Added stable narrow and aggregate Make targets, diagnostic coverage, JUnit
+  reporting, execution metadata, and adapter-conformance verification.
+- Documented clean virtual-environment and Conda setup, suite ownership,
+  fixtures, generated outputs, isolation, direct reproduction, and the QMS
+  boundary.
+- Completed todos `todo-001` through `todo-003`; the user subsequently
+  approved Plan 0004 closure and Plan 0003 unblocking.
+
+## Verification
+
+- Clean temporary Conda environment with Python 3.10 and
+  `PYTHONNOUSERSITE=1`: `python -m pip install -e '.[test]'`
+- `make test-unit test-contract test-property test-integration test`
+- `make test-cov`
+- `make test-report`
+- `make verify-test-adapter`: six tests across four suites
+- `make check-work`
+- `git diff --check`
+
+## Residual Risk
+
+- The current suites verify adapter behavior only. Plan 0003 must add product
+  tests while preserving the established aggregate gate.
+- The shared FLEY testing process remains provisional pending experience from
+  other repository adapters.
+
+---
+
+# codex-004 - Local Testing Framework Closure
+
+**Plan:** `0004-local-testing-framework`
+**Priority:** P1
+**Status:** closed
+**Timestamp:** 2026-06-20 22:29 EDT
+
+## Closure
+
+- The user approved closure after reviewing the implemented adapter and its
+  conformance evidence.
+- Marked Plan 0004 done and retained all three implementation todos as done.
+- Marked Plan 0003 ready now that its declared testing-framework dependency is
+  complete.
+- Established `.conda-test` as the ignored local environment used by bare
+  `make test`; the environment itself is not committed.
+
+## Verification
+
+- `make test`
+- `make verify-test-adapter`
+- `make test-cov`
+- `make test-report`
+- `make check-work`
+- `git diff --check`
+
+## Follow-on Work
+
+- Execute Plan `0003-core-foundation` and add product tests through the stable
+  aggregate gate.
+- Route only genuinely cross-repository adapter findings back to the
+  provisional FLEY testing process.

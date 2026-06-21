@@ -4,3 +4,10 @@ __pycache__/
 *:Zone.Identifier
 
 *.db
+*.egg-info/
+.coverage
+.conda-test/
+.hypothesis/
+.pytest_cache/
+.test-results/
+.venv/

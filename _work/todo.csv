@@ -1,4 +1,4 @@
 id,status,plan,track,priority,depends_on,notes
-todo-001,ready,0004-local-testing-framework,testing,P1,,add declared test dependencies configuration suite layout and deterministic defaults
-todo-002,blocked,0004-local-testing-framework,testing,P1,todo-001,add narrow aggregate and coverage Make targets with strict failure propagation
-todo-003,blocked,0004-local-testing-framework,testing,P1,todo-002,verify the framework in a clean environment and document test authoring and execution
+todo-001,done,0004-local-testing-framework,testing,P1,,added declared test dependencies pytest configuration suite layout deterministic defaults and non-empty adapter tests
+todo-002,done,0004-local-testing-framework,testing,P1,todo-001,added strict narrow and aggregate gates coverage JUnit reporting and execution metadata
+todo-003,done,0004-local-testing-framework,testing,P1,todo-002,verified FLEY adapter conformance in a clean environment and documented test authoring execution fixtures and results

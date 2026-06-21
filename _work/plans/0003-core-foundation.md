@@ -2,7 +2,7 @@
 
 ## Status
 
-Blocked on `0004-local-testing-framework`.
+Ready. Dependency `0004-local-testing-framework` is complete.
 
 ## Purpose
 
