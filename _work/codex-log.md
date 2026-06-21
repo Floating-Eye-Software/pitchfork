@@ -146,3 +146,44 @@ Concise append-only summaries for Codex sessions.
   aggregate gate.
 - Route only genuinely cross-repository adapter findings back to the
   provisional FLEY testing process.
+
+---
+
+# codex-005 - Core Foundation Design Draft Alignment
+
+**Plan:** `0003-core-foundation`
+**Priority:** P1
+**Status:** ready
+**Timestamp:** 2026-06-21 01:58 EDT
+
+## Changes
+
+- Added the initial Core Foundation design directory, planning drafts,
+  requirements and rationale, and risk register supplied by the user.
+- Reconciled Plan 0003 with those drafts and the established Pitchfork testing
+  adapter without modifying the design drafts themselves.
+- Added requirements and risk review, architecture review, implementation,
+  verification, validation, traceability, and release-readiness phases.
+- Added explicit immutable-event and immutable-result semantics, package import
+  safety, documented errors, rollback and failure injection, projection
+  reconstruction, and concurrent duplicate-protection obligations.
+- Identified eight design inputs that must be resolved and recorded before the
+  initial Lone Honk rule and public interface are implemented.
+- Clarified that draft repository design-control language does not itself
+  establish controlled QMS approval or evidence; applicable controlled
+  procedures remain owned by `fley-qms`.
+
+## Verification
+
+- `make test`
+- `make verify-test-adapter`
+- `make check-work`
+- `git diff --check`
+
+## Follow-on Work
+
+- Begin Plan 0003 with requirements and risk review rather than immediately
+  fixing public interfaces in code.
+- Resolve the numeric representation, event schema, migration resource,
+  `red_moon` derivation, API/result shape, duplicate semantics, supported
+  Python versions, and Pancakes concurrency contract.
