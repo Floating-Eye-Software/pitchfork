@@ -23,7 +23,7 @@ Related Pitchfork documents:
 - [Pitchfork Privacy and Security](pitchfork_privacy_security.md)
 - [Pitchfork Data Sovereignty](pitchfork_data_sovereignty.md)
 - [Pitchfork Economics](pitchfork_economics.md)
-- [Pancakes Service Exchange](pancakes_service_exchange.md)
+- [Pancakes Service Exchange](https://github.com/mlehotay/pancakes/blob/master/docs/pancakes_service_exchange.md)
 - [Pitchfork Node Quality of Life Signals](pitchfork_node_quality_of_life.md)
 
 ## Boundary Principle

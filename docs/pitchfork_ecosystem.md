@@ -14,7 +14,7 @@ Pitchfork and Pancakes are parallel efforts:
 
 The exact integration model can evolve. The important architectural idea is that Pitchfork should provide durable accounting primitives, while Pancakes and its clients provide humane interfaces for living with those primitives.
 
-The broader power-to-the-people direction is described in [Non-Exploitative Infrastructure](non_exploitative_infrastructure.md): Pancakes should help replace extractive platform defaults with local, cooperative, consent-based tools.
+The broader power-to-the-people direction is described in [Non-Exploitative Infrastructure](https://github.com/mlehotay/pancakes/blob/master/docs/non_exploitative_infrastructure.md): Pancakes should help replace extractive platform defaults with local, cooperative, consent-based tools.
 
 ## One-Sentence Summary
 
@@ -38,7 +38,7 @@ It is the product family, domain, and user-facing container for ordinary life:
 
 The name Pancakes fits the project because pancakes are ordinary, embodied, domestic, social, and cross-cultural. Nearly every culture has some form of pancake. That makes the name a good symbol for a life app that wants to recognize common human practices without reducing them to productivity metrics.
 
-Pancakes also carries the mutual-service exchange direction: household help, chores, local services, indirect credits, Pancakes Earth, and community coordination. That layer is described in [Pancakes Service Exchange](pancakes_service_exchange.md).
+Pancakes also carries the mutual-service exchange direction: household help, chores, local services, indirect credits, Pancakes Earth, and community coordination. That layer is described in [Pancakes Service Exchange](https://github.com/mlehotay/pancakes/blob/master/docs/pancakes_service_exchange.md).
 
 ### Pitchfork
 
@@ -143,7 +143,7 @@ Possible operators:
 
 These nodes let groups retain control over personal logs, ritual history, local policies, cooperative pools, and selected Pitchfork accounting state without depending on the hosted `pancakes.ca` or `pancakes.love` servers.
 
-The governance model is described in [Pancakes Node Infrastructure](pancakes_node_infrastructure.md).
+The governance model is described in [Pancakes Node Infrastructure](https://github.com/mlehotay/pancakes/blob/master/docs/pancakes_node_infrastructure.md).
 
 ## Integration Principles
 

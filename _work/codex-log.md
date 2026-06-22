@@ -187,3 +187,39 @@ Concise append-only summaries for Codex sessions.
 - Resolve the numeric representation, event schema, migration resource,
   `red_moon` derivation, API/result shape, duplicate semantics, supported
   Python versions, and Pancakes concurrency contract.
+
+---
+
+# codex-006 - Repository Boundary Content Cleanup
+
+**Plan:** `0001-pancakes-governance-and-architecture-roadmap`
+**Priority:** P1
+**Status:** recorded
+**Timestamp:** 2026-06-21 EDT
+
+## Changes
+
+- Moved Pancakes product, governance, node, service-exchange, recipe, grimoire,
+  mentor, guide, and ecosystem-doctrine material into the Pancakes repository.
+- Moved Pitchfork contract architecture and its explanatory reader into
+  Pitchfork documentation and updated current indexes and cross-repository
+  references.
+- Routed the Financial and Budgeting Client notes and the Pancakes/ISO
+  9001/GIFI feasibility notes into the Fley Org project nursery.
+- Routed the former `refs/` inputs into Pancakes design inputs and removed the
+  now-empty `refs/` and `_work/drafts/` directories.
+- Included the maintainer-staged removal of obsolete Pitchfork `_work`
+  material.
+
+## Verification
+
+- `make check-work`
+- `git diff --check`
+- remaining `_work` inventory review
+
+## Follow-on Work
+
+- Continue Pitchfork Plan 0003 using the retained core foundation design and
+  contract documents.
+- Reconcile or close Pitchfork Plan 0001 after its remaining lifecycle and
+  repository-boundary deliverables are reviewed.
