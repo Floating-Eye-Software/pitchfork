@@ -241,3 +241,50 @@ Concise append-only summaries for Codex sessions.
   commit `60bd048`.
 - Kept the repository private; ownership transfer does not satisfy or bypass a
   future public-readiness and visibility review.
+
+---
+
+# codex-008 - Repository Workflow Sync
+
+**Plan:** `0001-pancakes-governance-and-architecture-roadmap`
+**Priority:** P1
+**Status:** recorded
+**Timestamp:** 2026-06-26 EDT
+
+## Changes
+
+- Synced `../pitchfork/_work/repo-workflow.md` to the current canonical
+  `fley-org/process/repo-workflow.md` workflow.
+- Verified the local copy with `make -C ../fley-org check-repo-workflow
+  REPO_WORKFLOW=../pitchfork/_work/repo-workflow.md`.
+
+---
+
+# codex-009 - Symbolic Foundation And Expansion Planning
+
+**Plan:** `0006-symbolic-frequency-and-crafting-foundation`
+**Priority:** P1
+**Status:** review
+**Timestamp:** 2026-06-26 EDT
+
+## Changes
+
+- Finalized `docs/pitchfork-symbolic-frequencies.md` as the canonical
+  Pitchfork symbolic frequency foundation.
+- Finalized `docs/pitchfork-symbolic-crafting.md` as the canonical symbolic
+  conservation and transformation foundation.
+- Added Plan `0006-symbolic-frequency-and-crafting-foundation` in review.
+- Moved expansion chat and planning notes under `_work/notes/` and recorded
+  the cross-repository work order in `_work/notes/pitchfork-expansion-todo.md`.
+
+## Verification
+
+- `make check-work`
+- `git diff --check`
+
+## Follow-on Work
+
+- Review Plan 0006 before closure.
+- Continue Plan 0005 RPG lore preservation.
+- Keep Pancakes place, reference service, and node capability foundations in
+  the Pancakes repository.

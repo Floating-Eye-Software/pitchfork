@@ -3,3 +3,5 @@ id,status,track,priority,depends_on,notes
 0002-pitchfork-rpg-client-spec-update,todo,rpg,P2,,migrate the RPG specification to the node-aware Pitchfork client architecture
 0003-core-foundation,ready,core,P1,0004-local-testing-framework,build Pitchfork domain contracts deterministic settlement persistence interfaces packaging and tests
 0004-local-testing-framework,done,testing,P1,,Pitchfork pytest adapter implemented conformance verified and closure approved
+0005-rpg-lore-preservation,ready,rpg,P1,,preserve and modernize the RPG narrative in docs/rpg while keeping architecture canonical
+0006-symbolic-frequency-and-crafting-foundation,review,foundation,P1,,Pitchfork symbolic frequency and symbolic crafting foundation docs drafted and ready for review

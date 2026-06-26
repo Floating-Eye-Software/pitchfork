@@ -1,462 +1,174 @@
-# Outline: `docs/pitchfork-symbolic-frequencies.md`
+# Pitchfork Symbolic Frequencies
 
 ## Purpose
 
-Define symbolic frequencies as the semantic bridge connecting the real world, the symbolic RPG world, and the commerce/accounting world.
+Symbolic frequencies are the shared vocabulary that lets Pancakes and
+Pitchfork interpret ordinary life, symbolic play, and economic accounting as
+different views of the same underlying events.
 
-This document introduces the conceptual model underlying resources, commodities, colors, places, activities, and symbolic meaning. It does **not** define crafting algorithms; those belong in `pitchfork-symbolic-crafting.md`.
+This document is the canonical foundation for symbolic frequency concepts. It
+defines frequencies, frequency vectors, provenance, and the relationship
+between real activity, symbolic interpretation, and commerce. It does not
+define crafting operations; those belong in `pitchfork-symbolic-crafting.md`.
 
----
+## Canonical Definition
 
-# 1. Introduction
+A symbolic frequency is a recurring pattern of meaning that can be interpreted
+across multiple systems.
 
-## Motivation
+Frequencies are not RPG statistics, item tags, arbitrary enchantments, or
+metadata labels. They represent durable patterns such as movement, recovery,
+learning, stewardship, exchange, governance, wetland, silver, spring, or
+cooperation. A frequency may be visible as a real-world activity, a symbolic
+resource, a quality-of-life signal, or an economic concept depending on the
+reader.
 
-Explain the design problem.
+The same event can therefore be projected into three worlds:
 
-Ordinary life produces events.
+* The real world: walking, studying, cooking, menstruation, budgeting,
+  caregiving, repair, trade, and stewardship.
+* The symbolic world: essences, materials, rituals, mentors, attunements,
+  spells, and RPG resources.
+* The commerce world: events, inventories, commodities, contracts, services,
+  ledgers, and settlement records.
 
-Pitchfork projects those events into symbolic worlds without disconnecting them from reality.
+No projection replaces the others. A walk remains a walk. It may also carry a
+movement frequency, produce Ember Moss in an RPG projection, contribute to a
+wellness history, or settle as an activity event.
 
-Frequencies provide the common language shared by:
+## Frequency Vectors
 
-* Pancakes
-* Pitchfork
-* the RPG
-* commerce
-* node quality-of-life systems
+Objects and events are not defined by a single frequency. They carry vectors of
+orthogonal frequencies.
 
-### Design Goals
+Orthogonal means that each dimension remains independently meaningful. A walk
+through a wetland in spring during a community cleanup may carry movement,
+wetland, spring, stewardship, cooperation, and place frequencies at the same
+time. None of those meanings needs to erase the others.
 
-* unify multiple interpretations of the same event
-* preserve symbolic meaning
-* avoid arbitrary game mechanics
-* allow future expansion without redesign
-* support regional and cultural variation
+This keeps the model extensible. A future capability can add a pollinator,
+accessibility, transit, or food-security frequency without changing the
+fundamental architecture. The new dimension can coexist with older dimensions
+as long as it describes a coherent pattern of meaning.
 
----
+## Frequency Families
 
-# 2. The Three Worlds
+Frequency families group related dimensions without limiting future growth.
 
-Introduce the existing Three-World model.
+Activity frequencies arise from what happened. Examples include movement,
+learning, cooking, repair, caregiving, budgeting, teaching, and stewardship.
 
-## The Real World
+Place frequencies arise from where something happened or what places it is
+related to. Examples include wetland, forest, watershed, aquifer, urban,
+neighbourhood, park, escarpment, trail, and library.
 
-Examples:
+Commodity frequencies arise from material and economic identity. Examples
+include silver, wheat, coffee, wood, electricity, oil, salt, water, and repair
+parts. Commodity frequencies do not make commodities morally absolute; they
+describe symbolic and practical relationships.
 
-* walking
-* studying
-* gardening
-* cleaning
-* menstruation
-* caregiving
-* cooking
+Temporal frequencies arise from time. Examples include season, moon phase,
+recurrence, cycle, anniversary, harvest, school term, and festival.
 
----
+Social frequencies arise from relationships between people and institutions.
+Examples include cooperation, exchange, hospitality, mutual aid, governance,
+contract, mentorship, and common stewardship.
 
-## The Symbolic World
+Color frequencies summarize broad symbolic traditions used by RPG and mentor
+interpretations. Colors are useful lenses, not replacements for detailed
+frequency vectors.
 
-The RPG interpretation.
+## Intrinsic And Acquired Frequencies
 
-Examples:
+Intrinsic frequencies come from what a thing is. Silver carries silver
+frequency. Wood carries wood frequency. A community garden carries garden and
+place frequencies even before any particular node interacts with it.
 
-* Ember Moss
-* Moonwater
-* Order Salt
-* Covenant Runes
+Acquired frequencies come from history. Silver found during a creek cleanup
+may acquire stewardship, wetland, and community frequencies. Bread baked for a
+neighbour may acquire hospitality and caregiving frequencies. A repaired tool
+may acquire repair, continuity, and household frequencies.
 
----
+This is provenance. History matters because meaning accumulates through use,
+place, relationship, and transformation.
 
-## The Commerce World
+## Place And Provenance
 
-Accounting and economic interpretation.
+Place contributes context without becoming a scoring system. A Rouge Valley
+object, an escarpment object, and an urban library object may carry different
+place frequencies because their histories differ. Different does not mean
+better.
 
-Examples:
+The place model exists to support local meaning, stewardship, and awareness. It
+must not turn regions into loot tables or optimize identity into gameplay
+advantage. Indigenous territories, place names, and treaty contexts are
+contextual knowledge and must not become game resources.
 
-* events
-* commodities
-* inventories
-* contracts
-* services
-* ledgers
+Symbolic terroir is the idea that meaning partly arises from where and how
+something came into being. It should preserve provenance and relationship, not
+rank places.
 
----
+## Capabilities As Frequency Sources
 
-## Projection Principle
+Frequencies may originate from node capabilities.
 
-One real event may be viewed simultaneously through all three worlds.
+A GIS capability can contribute watershed, aquifer, park, trail, and civic
+boundary context. A barcode capability can contribute product, ingredient,
+packaging, repairability, and commodity context. A pollinator stewardship
+capability can contribute habitat, native plant, observation, and community
+science context. A civic infrastructure capability can contribute water,
+wastewater, transit, waste, and public alert context.
 
-No world is more "real" than another.
+Capabilities do not create meaning from nowhere. They expose coherent domains
+of life that can add dimensions to the frequency vector.
 
----
+## Relationship To The RPG
 
-# 3. What Is A Frequency?
+Mentors, schools of magic, resources, rituals, and lore interpret frequencies.
+They do not own them.
 
-Definition.
+For example, silver may be interpreted by one mentor as purification, by
+another as lunar rhythm, and by a commerce view as a commodity. The frequency
+remains shared while each projection gives it a different teaching role.
 
-A frequency is a recurring pattern of reality that can be interpreted across multiple symbolic systems.
+The RPG should use frequencies to teach abstractions through story and play.
+Architecture remains canonical outside the lore.
 
-Explain why frequencies are not:
+## Non-Goals
 
-* RPG stats
-* metadata
-* item tags
-* arbitrary enchantments
+This document does not define crafting algorithms, recipe execution, database
+schemas, balance rules, mentor lore, or UI presentation.
 
-Instead they represent recurring human, ecological, economic, and physical patterns.
+It also does not require every implementation to store every possible
+frequency. Implementations may choose compact representations, derived
+projections, or partial views as long as they preserve the conceptual boundary:
+frequencies describe meaningful patterns, not arbitrary power levels.
 
----
+## Examples
 
-# 4. Orthogonal Frequency Vectors
+A walk produces a movement frequency. In an RPG projection it may appear as
+Ember Moss. In the commerce world it may settle as a movement event. In a
+quality-of-life view it may support activity and access indicators.
 
-Core concept.
+A walk through a wetland during a stewardship event carries movement, wetland,
+place, stewardship, and cooperation frequencies. The wetland context should
+come from public reference data or local node knowledge, while the private walk
+history remains local to the node.
 
-Objects are not defined by one property.
+Silver gathered through stewardship may carry silver, purification, wetland,
+and community frequencies. If later crafted into a symbolic item, those
+frequencies should remain available unless a recipe explicitly transforms or
+filters them.
 
-They carry many independent symbolic frequencies.
+Oil may carry energy and extraction frequencies. A symbolic projection may
+represent imbalance, dependence, or industrial force, but the model should not
+treat any commodity as morally simple. Context and provenance matter.
 
-Illustrate vectors.
+## What Later Documents Should Reference
 
-Example:
+Later documents should reference this article when they need canonical language
+for frequencies, frequency vectors, intrinsic meaning, acquired meaning,
+provenance, symbolic terroir, and the Three Worlds projection model.
 
-Walking through Rouge Park in spring while collecting silver.
-
-Produces frequencies for:
-
-* movement
-* stewardship
-* wetland
-* spring
-* silver
-* purification
-
-Explain orthogonality.
-
-Each dimension remains independently meaningful.
-
----
-
-# 5. Categories Of Frequencies
-
-Introduce the major families.
-
-## Activity Frequencies
-
-Examples:
-
-* movement
-* learning
-* stewardship
-* cooking
-* caregiving
-
----
-
-## Place Frequencies
-
-Examples:
-
-* wetland
-* forest
-* river
-* urban
-* escarpment
-
-Mention:
-
-GIS contributes place frequencies.
-
----
-
-## Commodity Frequencies
-
-Examples:
-
-* silver
-* coffee
-* wheat
-* oil
-* electricity
-
-Commodity frequencies arise from symbolic interpretation of real commodities.
-
----
-
-## Color Frequencies
-
-Relationship to mentor colors.
-
-Explain that colors summarize broad patterns rather than replacing other frequencies.
-
----
-
-## Temporal Frequencies
-
-Examples:
-
-* season
-* moon
-* recurrence
-* cycles
-
----
-
-## Social Frequencies
-
-Examples:
-
-* cooperation
-* exchange
-* governance
-* hospitality
-
----
-
-## Future Frequency Families
-
-Architecture intentionally supports unforeseen categories.
-
-Reference Sneeds philosophy.
-
----
-
-# 6. Intrinsic And Acquired Frequencies
-
-One of the key ideas.
-
-## Intrinsic
-
-Properties inherent to the thing.
-
-Examples:
-
-* silver
-* wood
-* salt
-* coffee
-
----
-
-## Acquired
-
-Properties gained through history.
-
-Examples:
-
-* walked in Rouge
-* harvested in spring
-* used in community cleanup
-* crafted during a festival
-
-Explain provenance.
-
-History matters.
-
----
-
-# 7. Place And Provenance
-
-Discuss why place matters.
-
-Examples:
-
-* Rouge Valley
-* wetlands
-* watersheds
-* aquifers
-
-Explain symbolic terroir.
-
-Mention:
-
-Place contributes symbolic meaning.
-
-Place does not imply superiority.
-
-Avoid treating regions as loot tables.
-
----
-
-# 8. Frequencies And Node Capabilities
-
-Explain that frequencies may originate from capabilities.
-
-Examples:
-
-GIS capability contributes:
-
-* watershed
-* biome
-* park
-
-Barcode capability contributes:
-
-* commodity
-* packaging
-
-Community capability contributes:
-
-* stewardship
-* volunteering
-
-Future capabilities may introduce additional frequency families.
-
----
-
-# 9. Frequencies And Mentors
-
-Relationship to the RPG.
-
-Mentors interpret frequencies.
-
-They do not own frequencies.
-
-Example:
-
-Silver Frequency
-
-↓
-
-Red Witch
-
-↓
-
-Moonwater
-
-↓
-
-Cycle Magic
-
-Different mentors may interpret overlapping frequencies differently.
-
----
-
-# 10. Frequency Conservation (Overview)
-
-Brief conceptual introduction only.
-
-State the principle:
-
-Symbolic meaning should survive transformation.
-
-Do not define algorithms.
-
-Refer readers to:
-
-`pitchfork-symbolic-crafting.md`
-
----
-
-# 11. Worked Examples
-
-Include several end-to-end examples.
-
-Example:
-
-Walking
-
-↓
-
-Movement
-
-↓
-
-Red
-
-↓
-
-Ember Moss
-
-↓
-
-Movement Event
-
----
-
-Walking through Rouge wetlands
-
-↓
-
-Movement
-
-Wetland
-
-Stewardship
-
-↓
-
-Ember Moss carrying regional frequencies
-
----
-
-Silver gathered through stewardship
-
-↓
-
-Silver
-
-Purification
-
-Wetland
-
-↓
-
-Silver Saber
-
-(History preserved.)
-
----
-
-Oil
-
-↓
-
-Energy
-
-Extraction
-
-↓
-
-Corrupted Ember
-
-Explain corruption without treating commodities as morally absolute.
-
----
-
-# 12. Design Rules
-
-Summarize.
-
-Examples:
-
-* Frequencies describe patterns, not power levels.
-* Frequencies are orthogonal.
-* Frequencies are extensible.
-* Frequencies may originate from node capabilities.
-* Frequencies preserve symbolic continuity.
-* Frequencies should arise from meaningful real-world relationships.
-* New frequencies should require new knowledge rather than new architecture.
-
----
-
-# 13. Relationship To Other Documents
-
-Explain document boundaries.
-
-This document defines:
-
-* frequencies
-* vectors
-* provenance
-* symbolic meaning
-
-Other documents define:
-
-* symbolic crafting
-* recipes
-* node capabilities
-* place model
-* reference services
-* RPG mechanics
-
-This document should become the canonical conceptual reference for symbolic frequencies throughout the Pancakes and Pitchfork ecosystem.
+Application documents should define behaviour and examples. They should not
+redefine what a symbolic frequency is.
