@@ -223,3 +223,21 @@ Concise append-only summaries for Codex sessions.
   contract documents.
 - Reconcile or close Pitchfork Plan 0001 after its remaining lifecycle and
   repository-boundary deliverables are reviewed.
+
+---
+
+# codex-007 - Private Organization Transfer
+
+**Plan:** none
+**Priority:** P1
+**Status:** recorded
+**Timestamp:** 2026-06-21 EDT
+
+## Changes
+
+- Recorded the completed private transfer to
+  `git@github.com:Floating-Eye-Software/pitchfork.git`.
+- Updated the local `origin` and verified authenticated access to `main` at
+  commit `60bd048`.
+- Kept the repository private; ownership transfer does not satisfy or bypass a
+  future public-readiness and visibility review.

@@ -2,3 +2,4 @@ id,status,plan,track,priority,depends_on,notes
 todo-001,done,0004-local-testing-framework,testing,P1,,added declared test dependencies pytest configuration suite layout deterministic defaults and non-empty adapter tests
 todo-002,done,0004-local-testing-framework,testing,P1,todo-001,added strict narrow and aggregate gates coverage JUnit reporting and execution metadata
 todo-003,done,0004-local-testing-framework,testing,P1,todo-002,verified FLEY adapter conformance in a clean environment and documented test authoring execution fixtures and results
+todo-004,done,,github,P1,,recorded private transfer to Floating-Eye-Software/pitchfork and updated the local origin
