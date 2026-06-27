@@ -2,199 +2,453 @@
 
 ## Purpose
 
-Symbolic crafting defines how meaningful objects, services, resources, and
-records transform while preserving continuity.
+Symbolic crafting defines how transformations preserve, modify, and create symbolic meaning.
 
-This document is the canonical foundation for symbolic transformation. It
-depends on `pitchfork-symbolic-frequencies.md`, which defines frequencies and
-frequency vectors. This document explains how those frequencies are conserved,
-combined, refined, filtered, and intentionally transformed.
+Pitchfork is fundamentally a transformation system.
 
-## Canonical Definition
+Symbolic crafting explains how those transformations affect symbolic spectra while preserving continuity between ordinary life, commerce, stewardship, and symbolic worlds.
+
+This document builds upon `pitchfork-symbolic-frequencies.md`.
+
+It defines:
+
+* symbolic conservation
+* symbolic transformation
+* crafting operations
+* lineage
+* provenance preservation
+* symbolic composition
+
+It does **not** define quests, contracts, settlement, game balance, UI behaviour, or database implementation.
+
+---
+
+# Canonical Definition
 
 Symbolic crafting is transformation with memory.
 
-A crafted object is not merely an output inventory item. It is a new form that
-inherits relevant meaning from its inputs, recipe, makers, activities, places,
-and history. Crafting changes form. It should not erase provenance unless the
-recipe explicitly calls for forgetting, purification, anonymization, or other
-intentional transformation.
+Every transformation changes reality.
 
-The central rule is:
+Symbolic crafting explains how symbolic meaning changes alongside that transformation.
+
+The central principle is:
 
 ```text
 Symbolic meaning is conserved unless intentionally transformed.
 ```
 
-This is a design principle, not a requirement that every field be retained in
-every database row. Implementations may summarize, derive, project, or archive
-details. The conceptual model remains that meaningful history survives by
-default.
+Transformation changes form.
 
-## Craft Lineage
+It should not erase meaningful history unless that forgetting is itself an intentional part of the transformation.
 
-Every symbolic object has lineage. A walk may produce Ember Moss. Ember Moss
-may be refined into Rouge Leaves. Rouge Leaves may become a Traveller's Charm.
-The charm should remember enough lineage to preserve the relationship between
-movement, place, activity, and craft.
+---
 
-Lineage matters because Pancakes and Pitchfork are not trying to produce
-anonymous game materials. They are trying to preserve relationships between
-life, meaning, stewardship, and exchange.
+# Transformations
 
-Lineage can include:
+Pitchfork models transformations rather than objects.
 
-* input resources
-* activities that produced those resources
-* places and reference contexts
-* participants and roles
-* time and season
-* stewardship or community context
-* recipes and transformation operations
-* household or node history
+Examples include:
 
-## Transformation Operations
+* repairing a bicycle
+* baking bread
+* tutoring a student
+* restoring a wetland
+* performing a service
+* crafting an RPG artifact
+* organizing a community meal
 
-Symbolic crafting uses a small set of conceptual operations. Implementations
-may represent them differently, but later documents should preserve these
-meanings.
+Each transformation produces new reality.
 
-Refinement concentrates existing meaning. A raw movement resource may become a
-more focused travel resource. Refinement should make the dominant frequency
-clearer without pretending the earlier history never existed.
+Each transformation also produces a new symbolic spectrum.
 
-Amplification strengthens one or more frequencies. A purification ritual might
-amplify purification resonance in silver that already carried wetland and
-stewardship context.
+Crafting describes that symbolic evolution.
 
-Attenuation reduces a frequency. Repeated industrial processing may attenuate
-ecological context. A privacy-preserving recipe may attenuate identifying
-household context before sharing a community artifact.
+---
 
-Mixing combines frequencies from multiple inputs. A community meal may combine
-food, hospitality, neighbourhood, caregiving, and seasonal frequencies.
+# Craft Lineage
 
-Filtering preserves selected frequencies and discards or hides others. This is
-intentional forgetting. It must be treated as a meaningful transformation, not
-as accidental data loss.
+Every crafted result possesses lineage.
 
-Conversion changes the interpretive form of meaning. A commodity may become a
-symbolic resource, a symbolic resource may become a service, or a service may
-be represented as a contract. Continuity remains even when the projection
-changes.
+Lineage connects a transformation to the transformations that produced its inputs.
 
-Corruption is distortion, imbalance, contamination, extraction, exploitation,
-fragmentation, or broken relationship. It is not a synonym for evil.
+Lineage may include:
 
-Purification restores intended relationship or balance. It is not a generic
-"good" operation. It should be meaningful only in context.
+* materials
+* activities
+* services
+* places
+* participants
+* recipes
+* seasons
+* stewardship
+* previous crafted artifacts
 
-## Symbolic Terroir
+Lineage preserves relationships rather than simply recording ownership.
 
-Symbolic terroir is the way place contributes to meaning.
+A crafted object remembers enough history to preserve meaningful continuity.
 
-A wetland silver object and an urban library silver object are not ranked
-versions of the same thing. They are different histories. The wetland object
-may carry water, stewardship, species, and restoration context. The library
-object may carry learning, civic, exchange, and public knowledge context.
+---
 
-Regional identity should emerge from provenance. It should not become a
-grinding mechanic or a ranking system for places.
+# Symbolic Conservation
 
-## Activities As Ingredients
+Transformations normally preserve symbolic spectra.
 
-Activities can be ingredients because activities carry frequencies.
+Example:
 
-Walking, teaching, cooking, repairing, caregiving, gardening, budgeting, and
-volunteering can contribute meaning to crafted outputs. The activity does not
-need to become a physical item first. A recipe may consume an event projection,
-a service record, a resource, or a symbolic material depending on the domain.
+```text
+walk
 
-This is especially important for household and civic systems. A repaired tool,
-a shared meal, a neighbourhood cleanup, and a pollinator survey all carry
-activity histories that matter.
+↓
 
-## Recipes
+movement
+spring
+wetland
 
-A recipe is a rule for symbolic transformation.
+↓
 
-Recipes may define required inputs, optional context, transformation
-operations, expected outputs, permissions, safety constraints, provenance
-rules, and quality-of-life effects. A recipe should explain what meaning is
-preserved, what is amplified, what is filtered, and what is newly created.
+Ember Moss
 
-Recipes are not limited to cooking or RPG crafting. They can describe service
-work, community participation, household routines, repair, rituals, education,
-and civic practices.
+↓
 
-## Community Crafting
+Traveller's Charm
+```
 
-Some crafted outputs have shared ancestry.
+The Traveller's Charm still carries movement lineage.
 
-A community cleanup may produce recovered materials, stewardship records,
-shared recognition, place relationships, and symbolic resources. A festival may
-produce hospitality, cultural, food, music, seasonal, and neighbourhood
-frequencies. A household meal may combine pantry, care, budget, nutrition, and
-family history.
+Its symbolic spectrum may become richer.
 
-Shared lineage does not mean every participant receives the same private data.
-Nodes should preserve local privacy while allowing shared artifacts to carry
-community context.
+It should not become unrelated to its origin.
 
-## Capability Contributions
+---
 
-Capabilities contribute additional symbolic dimensions to crafting.
+# Symbolic Transformation
 
-A GIS capability can add place frequencies. A barcode capability can add
-commodity and packaging frequencies. An inventory capability can add household
-goods context. A civic infrastructure capability can add water, transit, waste,
-and public alert context. A pollinator stewardship capability can add species,
-habitat, and community science context.
+Crafting changes symbolic spectra through explicit transformation operations.
 
-Capabilities should contribute context through shared events and reference
-services. They should not bypass the crafting model by inventing private
-meaning systems.
+Operations modify symbolic meaning.
 
-## Non-Goals
+They do not replace history.
 
-This document does not define storage schemas, settlement algorithms, UI flows,
-drop rates, rarity tables, or game balance. It also does not require permanent
-retention of personally sensitive details.
+---
 
-Privacy-preserving transformation is valid symbolic crafting. A recipe may
-summarize, redact, anonymize, or localize provenance when sharing details would
-violate household privacy or community trust.
+## Refinement
 
-## Examples
+Refinement concentrates existing symbolic meaning.
 
-A walk becomes Ember Moss. Ember Moss becomes a Traveller's Charm. The charm
-retains movement lineage and may also retain place, season, or stewardship
-frequencies if those were part of the original activity.
+Example:
 
-Rouge wetland activity produces a movement resource with wetland and place
-context. Refinement can turn it into Rouge Leaves. A Wetland Lantern crafted
-from those leaves can retain regional identity without making Rouge Valley a
-superior resource source.
+Movement
 
-Silver earned through stewardship can become a Silver Saber. Silver,
-purification, stewardship, and wetland frequencies may remain present. If a
-recipe filters location details for privacy, it should still preserve the fact
-that stewardship shaped the item.
+↓
 
-An industrial catalyst made from oil may amplify energy and extraction
-frequencies. A later purification recipe might reduce imbalance or restore
-relationships, depending on the story, service, or civic context.
+Travel
 
-A community cleanup can produce recovered materials and a community monument.
-The artifact can remember cooperation, place, stewardship, and repair without
-exposing private participant histories.
+↓
 
-## What Later Documents Should Reference
+Exploration
 
-Later documents should reference this article when they need canonical language
-for symbolic conservation, craft lineage, symbolic terroir, transformation
-operations, recipe semantics, community crafting, and capability contributions
-to symbolic transformation.
+Meaning becomes more focused.
 
-Application documents should describe concrete behaviours. They should not
-redefine symbolic conservation or the meaning of crafting.
+History remains continuous.
+
+---
+
+## Amplification
+
+Amplification strengthens selected symbolic frequencies.
+
+Example:
+
+Stewardship becomes a more prominent aspect of an artifact without erasing its other symbolic relationships.
+
+---
+
+## Attenuation
+
+Attenuation reduces symbolic influence.
+
+Repeated industrial processing might attenuate ecological identity.
+
+Privacy-preserving sharing might attenuate household-specific context.
+
+Attenuation changes meaning.
+
+It is not accidental information loss.
+
+---
+
+## Mixing
+
+Mixing combines symbolic spectra.
+
+Examples include:
+
+* community meals
+* collaborative artwork
+* repaired machinery
+* blended ingredients
+* civic festivals
+
+The resulting symbolic spectrum inherits meaningful aspects of multiple inputs.
+
+---
+
+## Filtering
+
+Filtering intentionally preserves some symbolic relationships while discarding others.
+
+Filtering supports:
+
+* privacy
+* abstraction
+* anonymization
+* simplification
+* public sharing
+
+Intentional forgetting is itself a transformation.
+
+---
+
+## Conversion
+
+Conversion changes interpretive form while preserving symbolic continuity.
+
+Examples include:
+
+* service → artifact
+* artifact → contract
+* commodity → symbolic resource
+* activity → recognition
+
+Meaning survives despite changing representation.
+
+---
+
+## Purification
+
+Purification restores intended symbolic relationships.
+
+Purification is not synonymous with goodness.
+
+Different symbolic traditions may understand purification differently.
+
+The important idea is restoration rather than moral judgment.
+
+---
+
+## Corruption
+
+Corruption represents distortion, imbalance, contamination, fragmentation, exploitation, or broken relationship.
+
+Corruption does not imply evil.
+
+It describes symbolic degradation relative to an intended relationship.
+
+---
+
+# Activities As Ingredients
+
+Activities possess symbolic spectra.
+
+Therefore activities may participate directly in symbolic transformations.
+
+Examples include:
+
+* walking
+* teaching
+* caregiving
+* cooking
+* repairing
+* volunteering
+* stewardship
+* studying
+
+Activities need not first become inventory items.
+
+Meaningful participation itself may become part of a transformation.
+
+---
+
+# Services As Transformations
+
+Services are symbolic transformations.
+
+Examples include:
+
+* tutoring
+* bicycle repair
+* childcare
+* translation
+* legal advice
+* community gardening
+
+A completed service may produce:
+
+* symbolic artifacts
+* recognition
+* stewardship
+* acquired provenance
+* community memory
+* symbolic resources
+
+Service exchange is therefore a specialization of symbolic crafting rather than a separate conceptual system.
+
+---
+
+# Community Crafting
+
+Some transformations produce shared symbolic ancestry.
+
+Examples include:
+
+* festivals
+* community meals
+* habitat restoration
+* neighbourhood cleanups
+* public art
+* collaborative workshops
+
+Shared symbolic lineage should preserve community relationships without exposing unnecessary private information.
+
+Privacy and provenance must coexist.
+
+---
+
+# Place And Crafting
+
+Places participate in symbolic crafting.
+
+Transformations occurring within a place contribute to both the crafted result and the symbolic history of the place itself.
+
+A workshop accumulates craftsmanship.
+
+A woodland accumulates stewardship.
+
+A commons accumulates celebration, teaching, repair, and memory.
+
+Crafting therefore changes both artifacts and places.
+
+---
+
+# Projection
+
+Crafting operates before projection.
+
+Example:
+
+```text
+Transformation
+
+repair bicycle
+
+↓
+
+Symbolic spectrum
+
+repair
+craftsmanship
+mobility
+care
+
+↓
+
+Commerce
+
+Repair completed.
+
+↓
+
+Wellness
+
+Household resilience improved.
+
+↓
+
+RPG
+
+Iron repaired.
+Forge strengthened.
+
+↓
+
+Ambient World
+
+The workshop glows warmly.
+```
+
+Crafting changes symbolic spectra.
+
+Clients interpret them.
+
+No client owns symbolic meaning.
+
+---
+
+# Design Principles
+
+Meaning survives transformation.
+
+History matters.
+
+Provenance should remain visible.
+
+Crafting should strengthen relationships rather than erase them.
+
+Transformations should compose naturally.
+
+The same symbolic foundation should support commerce, stewardship, household life, education, and symbolic play.
+
+---
+
+# Non-Goals
+
+This document does not define:
+
+* quests
+* covenant negotiation
+* settlement
+* accounting
+* reward systems
+* rarity tables
+* RPG balance
+* storage schemas
+* vector mathematics
+* UI behaviour
+
+Those belong elsewhere.
+
+---
+
+# Examples
+
+A loaf of bread inherits symbolic relationships from grain, cooking, hospitality, and the people who prepared it.
+
+A repaired bicycle inherits repair, craftsmanship, continuity, and stewardship.
+
+Silver recovered during wetland restoration carries silver, stewardship, ecological, and place relationships into future crafted artifacts.
+
+A tutoring session transforms understanding rather than matter.
+
+Its symbolic products may later participate in educational recognition, community memory, symbolic projections, or service history.
+
+A community cleanup may simultaneously transform a park, create recovered materials, strengthen neighbourhood relationships, and enrich the symbolic spectrum of the place itself.
+
+---
+
+# What Later Documents Should Reference
+
+Later documents should reference this article whenever they require canonical language for:
+
+* symbolic conservation
+* symbolic transformation
+* crafting operations
+* lineage
+* provenance preservation
+* activity-based ingredients
+* service transformations
+* community crafting
+* symbolic composition
+
+Application documents should define concrete recipes, quests, contracts, services, and symbolic worlds.
+
+They should not redefine the symbolic semantics of transformation.

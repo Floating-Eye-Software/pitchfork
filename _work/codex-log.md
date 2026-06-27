@@ -288,3 +288,36 @@ Concise append-only summaries for Codex sessions.
 - Continue Plan 0005 RPG lore preservation.
 - Keep Pancakes place, reference service, and node capability foundations in
   the Pancakes repository.
+
+---
+
+# codex-010 - Spectra Projection And Quest Foundations
+
+**Plan:** `0006-symbolic-frequency-and-crafting-foundation`
+**Priority:** P1
+**Status:** review
+**Timestamp:** 2026-06-26 EDT
+
+## Changes
+
+- Revised the symbolic-frequency and symbolic-crafting foundations around the
+  distinction between transformation, symbolic spectrum, projection, and
+  client experience.
+- Added `docs/pitchfork-symbolic-projections.md` to define how clients
+  interpret shared symbolic spectra without making any projection canonical.
+- Added `docs/pitchfork-questing.md` to distinguish voluntary meaningful
+  journeys from recipes and transformations.
+- Added `_work/notes/pitchfork-spectral-design-iteration.md` as the design
+  discussion supporting this iteration.
+- Included the previously staged Plan 0006 file.
+
+Changed files:
+
+- `_work/plans/0006-symbolic-frequency-and-crafting-foundation.md`
+- `_work/notes/pitchfork-spectral-design-iteration.md`
+- `docs/pitchfork-symbolic-crafting.md`
+- `docs/pitchfork-symbolic-frequencies.md`
+- `docs/pitchfork-symbolic-projections.md`
+- `docs/pitchfork-questing.md`
+
+Plan 0006 remains in review; this entry does not close it.
