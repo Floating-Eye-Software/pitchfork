@@ -13,6 +13,9 @@ The archived documents are still important source material. They preserve the or
 - [Pitchfork Client API Spec](pitchfork_client_api_spec.md): rough client-facing contract for nodes, identity, permission grants, events, settlements, projections, audit, exports, and security hard lines.
 - [Pitchfork Contracts](pitchfork-contracts.md): proposed reusable contract architecture for commitments, permissions, procedures, settlement, and governance.
 - [Understanding Pitchfork Contracts](pitchfork-contracts-reader.md): explanatory companion to the contract architecture.
+- [Pitchfork Recipes and Grimoires](pitchfork-recipes-and-grimoires.md): draft transformation model connecting recipes, covenants, settlement, reusable knowledge, and client projections.
+- [Pitchfork Questing](pitchfork-questing.md): defines voluntary, projection-aware quest composition over recipes, symbolic foundations, place, and community.
+- [Pitchfork Sneeds Capability](pitchfork-sneeds-capability.md): defines the extensibility test requiring new human needs and value domains to be representable without architectural redesign.
 - [Pitchfork Economics](pitchfork_economics.md): defines the economic philosophy, social risks, capped symbolic rewards, cooperative pools, and real-money boundaries.
 - [Pitchfork RPG Client](pitchfork_rpg_client.md): defines the life-powered browser RPG concept, MVP loop, domains, resources, mentors, crafting, covenants, and long-term multiplayer direction.
 - [Pitchfork Household Management Model](pitchfork-household-management-model.md): defines how the Pancakes household model maps into Pitchfork events, covenants, resources, projections, privacy boundaries, and settlement rules.
@@ -36,13 +39,16 @@ The archived documents are still important source material. They preserve the or
 5. Read [Pitchfork Client API Spec](pitchfork_client_api_spec.md) before building any Pancakes or Pitchfork client integration.
 6. Read [Pitchfork Economics](pitchfork_economics.md) before implementing markets, tokens, contracts, rewards, crypto, or anything with real-world value.
 7. Read [Pitchfork Contracts](pitchfork-contracts.md) and its [explanatory reader](pitchfork-contracts-reader.md) before implementing commitments, procedures, enforcement, or settlement contracts.
-8. Read [Pitchfork RPG Client](pitchfork_rpg_client.md) before implementing gameplay.
-9. Read [Pitchfork Household Management Model](pitchfork-household-management-model.md) before implementing household events, household covenants, domestic resources, care rituals, or household projections.
-10. Read [Pitchfork Roguelike: The Nexus](pitchfork_roguelike.md) before implementing settlement, vendor, faction, covenant-board, ledger-archive, or multi-client projection features.
-11. Read [Ambient Symbolic Clients](pitchfork_client_ambience.md) before implementing Minecraft-like, realtime, emotional ecology, environmental projection, or symbolic ambience features.
-12. Read [Pitchfork Node Quality of Life Signals](pitchfork_node_quality_of_life.md) before implementing node-level aggregate metrics, public summaries, quality-of-life reviews, or support-planning dashboards.
-13. Use [Legacy Carry-Forward](pitchfork_legacy_carry_forward.md) when mining the archive for reusable ideas.
-14. Use [ChatGPT Export Inventory](chatgpt_export_inventory.md) when mining old transcript exports.
+8. Read [Pitchfork Recipes and Grimoires](pitchfork-recipes-and-grimoires.md) before implementing transformations, recipe settlement, covenants, or reusable bodies of practical knowledge. It remains a draft design source.
+9. Read [Pitchfork Questing](pitchfork-questing.md) before implementing voluntary quests or composing recipes, symbolic foundations, place, and community into projected experiences.
+10. Use [Pitchfork Sneeds Capability](pitchfork-sneeds-capability.md) when evaluating whether a domain model remains extensible to unanticipated needs, services, indicators, and forms of value.
+11. Read [Pitchfork RPG Client](pitchfork_rpg_client.md) before implementing gameplay.
+12. Read [Pitchfork Household Management Model](pitchfork-household-management-model.md) before implementing household events, household covenants, domestic resources, care rituals, or household projections.
+13. Read [Pitchfork Roguelike: The Nexus](pitchfork_roguelike.md) before implementing settlement, vendor, faction, covenant-board, ledger-archive, or multi-client projection features.
+14. Read [Ambient Symbolic Clients](pitchfork_client_ambience.md) before implementing Minecraft-like, realtime, emotional ecology, environmental projection, or symbolic ambience features.
+15. Read [Pitchfork Node Quality of Life Signals](pitchfork_node_quality_of_life.md) before implementing node-level aggregate metrics, public summaries, quality-of-life reviews, or support-planning dashboards.
+16. Use [Legacy Carry-Forward](pitchfork_legacy_carry_forward.md) when mining the archive for reusable ideas.
+17. Use [ChatGPT Export Inventory](chatgpt_export_inventory.md) when mining old transcript exports.
 
 Pancakes product, node, governance, Lifecraft, service-exchange, and ecosystem
 doctrine documents are maintained in the Pancakes repository.

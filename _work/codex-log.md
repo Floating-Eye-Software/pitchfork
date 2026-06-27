@@ -321,3 +321,30 @@ Changed files:
 - `docs/pitchfork-questing.md`
 
 Plan 0006 remains in review; this entry does not close it.
+
+---
+
+# codex-011 - Current-Direction Context Classification
+
+**Plan:** `0006-symbolic-frequency-and-crafting-foundation`
+**Priority:** P1
+**Status:** review
+**Timestamp:** 2026-06-26 EDT
+
+## Changes
+
+- Added Pitchfork Recipes and Grimoires, Pitchfork Questing, and the Pitchfork
+  Sneeds Capability to the documentation current-direction index.
+- Added explicit reading-order guidance for transformation and settlement,
+  voluntary projected quests, and architectural extensibility reviews.
+- Preserved the Recipes and Grimoires document's draft status while making its
+  role in current design context explicit.
+- Enabled the three documents to be included in the Pancakes-owned
+  cross-repository context composite without changing Pitchfork authority.
+
+## Verification
+
+- `make check-work`
+- `git diff --check`
+
+Plan 0006 remains in review; this entry does not close it.
