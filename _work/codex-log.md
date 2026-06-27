@@ -324,6 +324,29 @@ Plan 0006 remains in review; this entry does not close it.
 
 ---
 
+# codex-012 - Symbolic Foundation Closure And Plan Status Reconciliation
+
+**Plan:** `0006-symbolic-frequency-and-crafting-foundation`
+**Priority:** P1
+**Status:** done
+**Timestamp:** 2026-06-27 EDT
+
+## Changes
+
+- Closed Plan 0006 after acceptance of the symbolic frequency and crafting
+  foundation documents.
+- Moved Plan 0002 to `doing` because RPG architecture and source
+  reconciliation work has started.
+- Recorded Plans 0005 and 0007 as `blocked`: replacement RPG documents exist,
+  but their declared prerequisite plans remain unfinished.
+
+## Verification
+
+- `make check-work`
+- `git diff --check`
+
+---
+
 # codex-011 - Current-Direction Context Classification
 
 **Plan:** `0006-symbolic-frequency-and-crafting-foundation`
