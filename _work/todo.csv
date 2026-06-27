@@ -3,3 +3,13 @@ todo-001,done,0004-local-testing-framework,testing,P1,,added declared test depen
 todo-002,done,0004-local-testing-framework,testing,P1,todo-001,added strict narrow and aggregate gates coverage JUnit reporting and execution metadata
 todo-003,done,0004-local-testing-framework,testing,P1,todo-002,verified FLEY adapter conformance in a clean environment and documented test authoring execution fixtures and results
 todo-004,done,,github,P1,,recorded private transfer to Floating-Eye-Software/pitchfork and updated the local origin
+todo-005,ready,0002-pitchfork-rpg-client-spec-update,rpg,P1,,inventory RPG sources and classify preserved modernized superseded and open material
+todo-006,todo,0002-pitchfork-rpg-client-spec-update,rpg,P1,todo-005,reconcile the canonical RPG architecture with Pitchfork foundations and ecosystem ownership boundaries
+todo-007,todo,0002-pitchfork-rpg-client-spec-update,rpg,P1,todo-006,define node projection privacy gameplay and multiplayer architecture boundaries
+todo-008,todo,0002-pitchfork-rpg-client-spec-update,rpg,P1,todo-007,publish the canonical architecture source disposition mapping and cross references
+todo-009,todo,0005-rpg-lore-preservation,rpg,P1,todo-008,build the complete docs rpg migration matrix and establish target editorial conventions
+todo-010,todo,0005-rpg-lore-preservation,rpg,P1,todo-009,draft the README overview design goals and novices journey
+todo-011,todo,0005-rpg-lore-preservation,rpg,P1,todo-010,draft the magic commerce world and gameplay documents
+todo-012,todo,0005-rpg-lore-preservation,rpg,P1,todo-011,draft the economic testbed research platform product roadmap and open questions
+todo-013,todo,0005-rpg-lore-preservation,rpg,P1,todo-012,reconcile RPG documents with canonical architecture symbolic terminology and repository ownership boundaries
+todo-014,todo,0005-rpg-lore-preservation,rpg,P1,todo-013,archive or redirect superseded sources and complete editorial link workflow and acceptance review
