@@ -139,6 +139,27 @@ Without resonance, essence is simply potential.
 
 Together, essence and resonance create recognizable forms of magic.
 
+## Attunement
+
+Attunement describes a continuing relationship among a player, a symbolic
+domain, their practices, their social roles, and their contributions.
+
+Unlike a direct metric conversion, attunement is interpretive. A pattern of
+movement might strengthen road, fire, or vitality resonance depending on
+context; rest might support dream, water, moon, or hearth traditions.
+
+Attunement may influence:
+
+* compatible recipes,
+* gathering outcomes,
+* ritual participation,
+* crafted properties,
+* mentor relationships,
+* and the roles a player chooses to develop.
+
+It must not expose private source activity or imply that one measured behavior
+has one mandatory magical meaning.
+
 ---
 
 # The Three Foundational Operations

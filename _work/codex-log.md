@@ -371,3 +371,47 @@ Plan 0006 remains in review; this entry does not close it.
 - `git diff --check`
 
 Plan 0006 remains in review; this entry does not close it.
+
+---
+
+# codex-013 - RPG Documentation Consolidation
+
+**Plans:** `0002-pitchfork-rpg-client-spec-update`,
+`0005-rpg-lore-preservation`, `0007-rpg-document-consolidation`
+**Priority:** P1
+**Status:** review deferred
+**Timestamp:** 2026-06-27 EDT
+
+## Changes
+
+- Audited every legacy file under `docs/rpg/`, first through `stats.md` dated
+  April 26, 2024, and then the remaining September 2024 and June 2026 sources.
+- Recorded a per-source disposition identifying preserved, modernized,
+  superseded, and open concepts.
+- Incorporated previously omitted mentor traditions, resource loops, inventory
+  and workbench behavior, participation-based character development,
+  achievement history, market and recognition questions, attunements,
+  archetypes, capped-participation experiments, cooperative pools, and
+  anti-coercion safeguards into the replacement documents.
+- Added `docs/rpg/14-client-architecture.md` as the canonical technical boundary
+  for events, settlement, projections, privacy, nodes, real-time summaries,
+  multiplayer progression, and repository ownership.
+- Removed all 25 superseded RPG source files dated before June 27, 2026.
+- Completed todos `todo-005` through `todo-014`.
+- Moved Plan 0002 to review. Plans 0005 and 0007 remain blocked on their
+  declared review sequence because the user deferred closure review.
+
+## Verification
+
+- `make check-work`
+- `git diff --check`
+- Confirmed every remaining file under `docs/rpg/` is dated June 27, 2026.
+- Confirmed references to deleted sources remain only in provenance and legacy
+  records, not active RPG navigation.
+
+## Follow-on Work
+
+- Review and, if accepted, close Plans 0002, 0005, and 0007 in dependency
+  order.
+- Resolve remaining product decisions through `docs/rpg/11-open-questions.md`
+  rather than restoring superseded brainstorming documents.

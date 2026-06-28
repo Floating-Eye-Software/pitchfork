@@ -220,6 +220,10 @@ The game should support people rather than optimizing them.
 
 Players should always retain meaningful control over their participation.
 
+They should be able to hide optional activity, pause, avoid public streaks,
+decline social pressure, separate personal and economic projections, and
+disengage without punitive loss.
+
 The system should avoid encouraging:
 
 * surveillance,
@@ -228,6 +232,10 @@ The system should avoid encouraging:
 * endless grinding,
 * productivity obsession,
 * or exploitative reward structures.
+
+The system should also avoid treating health, location, household, cycle,
+caregiving, journal, or emotional records as game content merely because a
+specialized client can access them.
 
 Instead it should encourage:
 

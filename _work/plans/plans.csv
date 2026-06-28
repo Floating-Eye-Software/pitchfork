@@ -1,8 +1,8 @@
 id,status,track,priority,depends_on,notes
 0001-pancakes-governance-and-architecture-roadmap,todo,governance,P2,,establish ecosystem governance architecture repository boundaries and lifecycle direction
-0002-pitchfork-rpg-client-spec-update,doing,rpg,P1,,RPG source audit and replacement documentation are underway; finish canonical client architecture and source disposition
+0002-pitchfork-rpg-client-spec-update,review,rpg,P1,,canonical client architecture source disposition and replacement documentation are complete; closure review deferred by user
 0003-core-foundation,ready,core,P1,0004-local-testing-framework,build Pitchfork domain contracts deterministic settlement persistence interfaces packaging and tests
 0004-local-testing-framework,done,testing,P1,,Pitchfork pytest adapter implemented conformance verified and closure approved
-0005-rpg-lore-preservation,blocked,rpg,P1,0002-pitchfork-rpg-client-spec-update|0006-symbolic-frequency-and-crafting-foundation,replacement RPG documents are drafted but finalization is blocked until plan 0002 establishes the canonical client boundary
+0005-rpg-lore-preservation,blocked,rpg,P1,0002-pitchfork-rpg-client-spec-update|0006-symbolic-frequency-and-crafting-foundation,replacement RPG documents and migration are complete; closure waits for deferred plan 0002 review
 0006-symbolic-frequency-and-crafting-foundation,done,foundation,P1,,Pitchfork symbolic frequency and symbolic crafting foundation documents accepted and complete
-0007-rpg-document-consolidation,blocked,rpg,P1,0005-rpg-lore-preservation,replacement documents exist but consolidation and legacy retirement wait for plan 0005 acceptance
+0007-rpg-document-consolidation,blocked,rpg,P1,0005-rpg-lore-preservation,legacy consolidation and retirement are complete; closure waits for deferred plan 0005 review

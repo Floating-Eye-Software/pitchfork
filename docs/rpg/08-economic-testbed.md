@@ -189,6 +189,32 @@ The symbolic economy provides opportunities to experiment with recognizing these
 
 ---
 
+# Participation Limits And Non-Transferable Meaning
+
+Early designs proposed capped participation rewards: basic involvement could
+provide access to symbolic resources, while additional optimization would not
+produce unlimited income. This remains a useful experiment rather than a fixed
+economic rule.
+
+Possible safeguards include:
+
+* limits by time period or activity class,
+* diminishing or non-economic recognition,
+* multiple valid paths including rest and recovery,
+* no invasive proof requirement for low-stakes participation,
+* and clear separation between symbolic rewards and real compensation.
+
+Some outcomes should remain non-transferable. Personal milestones, trust,
+teaching lineages, recovery journeys, and stewardship histories can retain
+meaning precisely because they cannot be sold.
+
+Communities may also test cooperative pools for mutual aid, education,
+childcare, emergency support, shared infrastructure, and public projects.
+Authority, eligibility, funding, and safeguards must be explicit; a compelling
+game mechanic is not sufficient authorization for a real financial program.
+
+---
+
 # Research Rather Than Optimization
 
 The objective is not to discover one perfect economy.

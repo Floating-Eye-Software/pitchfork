@@ -110,6 +110,15 @@ Documents major unresolved design questions and identifies opportunities for fut
 
 ---
 
+## Architecture
+
+### 14-client-architecture.md
+
+Defines the authoritative event, settlement, projection, privacy, node, and
+multiplayer boundaries between the RPG, Pitchfork, and Pancakes.
+
+---
+
 # Relationship to Pitchfork
 
 The RPG is one client built upon the broader Pitchfork platform.
@@ -117,12 +126,14 @@ The RPG is one client built upon the broader Pitchfork platform.
 Pitchfork provides reusable capabilities including:
 
 * event accounting,
-* identities,
 * resources,
 * recipes,
 * contracts,
 * projections,
 * and shared state.
+
+Pancakes owns identity, permissions, applications, nodes, and physical
+persistence.
 
 The RPG interprets those capabilities through a symbolic fantasy world centered on magic, exploration, crafting, symbolic materials, and civilization.
 

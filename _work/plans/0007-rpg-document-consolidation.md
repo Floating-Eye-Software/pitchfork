@@ -516,6 +516,31 @@ Their useful ideas have either been incorporated into the new documentation or e
 
 ---
 
+# Legacy Source Disposition
+
+The following matrix records the disposition of every source dated through
+`stats.md` (April 26, 2024). Repeated prose and superseded implementation
+assumptions are not preserved merely because they appeared in multiple drafts.
+
+| Legacy source | Preserved in | Disposition |
+| --- | --- | --- |
+| `pancakes-tokens.md`, `.2`, `.3`, `.4`, `.5`, `.6`, `.7` | `03-novices-journey.md`, `04-magic-system.md`, `05-commerce-and-contracts.md`, `07-gameplay.md`, `08-economic-testbed.md`, `11-open-questions.md`, `12-symbolic-materials.md` | Preserve colored and blank tokens, rarity/provenance, player contracts, community cooperation, multidimensional contribution views, token/material conversion, market experimentation, and social-safety questions. Supersede fixed CAD pegs, claims of real-asset ownership, automatic life-activity rewards, and a mandatory composite score. |
+| `magic-token.md` | `04-magic-system.md`, `05-commerce-and-contracts.md`, `07-gameplay.md`, `11-open-questions.md` | Preserve mentor traditions, token containers, blank magic, player contracts, achievement history, cooperation, transparent experimentation, and events as an open design area. |
+| `pancakes-elements.1.md`, `.2` | `03-novices-journey.md`, `04-magic-system.md`, `05-commerce-and-contracts.md`, `12-symbolic-materials.md`, `13-symbolic-crafting.md` | Preserve experimentation, blank contracts, material resonance, transformation, dual magical/institutional traditions, and ethical consequences. Supersede the claim that commodities exist only in another world. |
+| `rules.md`, `game.md` | `04-magic-system.md`, `05-commerce-and-contracts.md`, `07-gameplay.md`, `11-open-questions.md` | Preserve Create/Fill/Empty, contracts, material transformation, separate contribution histories, and quest-giver/quest-taker roles. Supersede fixed rules and one overall score pending product evidence. |
+| `story.md`, `lore.md` | `03-novices-journey.md`, `06-world-and-setting.md`, `11-open-questions.md` | Preserve the Academy, discovery, convergence, ethical tension, alliances, consequences, chaos, and restoration. Supersede a single canonical player story and coercive contracts as the defining form of commerce. |
+| `inventory.md` | `07-gameplay.md`, `11-open-questions.md` | Preserve typed inventory views, stacking as a possible presentation, individual contracts, and the workbench composition area. Treat drag-and-drop, slots, sorting, and badges as client decisions. |
+| `phases.md` | `03-novices-journey.md` | Preserve staged disclosure of color magic, blank magic, contracts, materials, convergence, crisis, stewardship, and mastery. |
+| `mentors.md` | `01-rpg-overview.md`, `02-design-goals.md`, `06-world-and-setting.md` | Preserve domains of human flourishing, invisible value, practical care, and mentors as symbolic interpreters. Supersede direct habit-tracker ownership and fixed mentor taxonomy. |
+| `design.md`, `design2.md` | `03-novices-journey.md`, `04-magic-system.md`, `05-commerce-and-contracts.md`, `07-gameplay.md`, `10-product-roadmap.md`, `11-open-questions.md` | Preserve color combinations, Essentia/Aetheria/Blanken, blank contracts, the grimoire and Nexus as optional lore, automated agreements, player agency, convergence, consequences, and restoration. Supersede blockchain as the predetermined apex and fixed linear story. |
+| `interface.md` | `07-gameplay.md`, `10-product-roadmap.md`, `11-open-questions.md` | Preserve a browser client, text-friendly interaction, exploration, tactical possibilities, inventory, and reactive projections. Leave turns, grids, facing, strafing, combat, and MVI as client/product choices rather than domain contracts. |
+| `stats.md` | `07-gameplay.md`, `11-open-questions.md` | Record the conventional twelve-attribute proposal, but replace it with participation-based development in craft, research, stewardship, teaching, exploration, governance, reputation, and mentorship. |
+| `pitchfork_magic_system.md`, `pitchfork_magic_system_with_contracts.md` | `04-magic-system.md`, `05-commerce-and-contracts.md`, `08-economic-testbed.md`, `11-open-questions.md`, `12-symbolic-materials.md` | Preserve essence, blankening, color combinations, material resonance, contract variety, rarity, and separate contribution views. Treat color/material meanings as extensible symbolism. Supersede real-commodity ownership, direct market-price-to-power coupling, mandatory penalties, and fixed destructive meanings. |
+| `pitchfork-rpg-design-notes.md` | `01-rpg-overview.md`, `02-design-goals.md`, `04-magic-system.md`, `06-world-and-setting.md`, `07-gameplay.md`, `08-economic-testbed.md`, `10-product-roadmap.md`, `11-open-questions.md`, `14-client-architecture.md` | Preserve the reality-powered RPG premise, cultivation tone, attunements, flexible archetypes and factions, specialized clients, household stewardship, capped-participation experiments, non-transferable achievements, cooperative pools, anti-coercion safeguards, privacy boundaries, and staged MMO direction. Supersede direct habit ownership, raw sensitive-data projection, fixed activity-to-resource mappings, and an assumed real-crypto endpoint. |
+| `pitchfork-rpg-architecture.md` | `07-gameplay.md`, `10-product-roadmap.md`, `14-client-architecture.md` | Preserve the lightweight MUD/KoL inspiration, command/outcome separation, persistent world, one-world-many-clients model, discrete/real-time/reflective client distinction, settled summaries, permissioned projections, and rebuildable state. Route applications, identity, databases, and permissions to Pancakes. Supersede Flask routes, physical schemas, central-server assumptions, and renderer-specific Minecraft/Doom implementation advice as canonical architecture. |
+
+---
+
 # Future Direction
 
 The current documentation establishes the conceptual foundation of the Pitchfork RPG.

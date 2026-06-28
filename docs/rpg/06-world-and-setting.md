@@ -104,6 +104,28 @@ Each sees the world through a particular symbolic tradition.
 
 Together they provide a diverse foundation for future discovery.
 
+## Mentor Traditions
+
+Early designs grouped mentors around practical domains of human flourishing.
+Those names and groupings are not fixed canon, but the underlying idea remains
+useful: mentors can interpret ordinary care and development as respected
+magical traditions.
+
+Candidate traditions include:
+
+* material security and financial stewardship,
+* movement, fitness, and physical health,
+* food, nutrition, and hearth care,
+* mental and emotional well-being,
+* learning, employment, and personal development,
+* belonging, relationships, leisure, and culture,
+* personal safety, environmental care, governance, and balanced living.
+
+A mentor may embody one tradition, connect several traditions, or help a
+community establish a new one. The setting should not imply that a single
+authority owns these domains or that private health and life records belong to
+the RPG.
+
 ---
 
 # The Magical Landscape

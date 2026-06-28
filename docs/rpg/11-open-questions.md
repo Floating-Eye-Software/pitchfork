@@ -164,6 +164,34 @@ Can communities regulate their own educational experience?
 
 ---
 
+## Character Representation
+
+Which capabilities, relationships, and contribution histories should a
+character projection expose?
+
+Should any conventional numeric attributes remain?
+
+How can craftsmanship, research, stewardship, teaching, exploration,
+governance, reputation, and mentorship develop without becoming one universal
+level?
+
+Should achievement artifacts grant abilities, record history, or do both?
+
+---
+
+## Interaction Model
+
+Should exploration be turn-based, continuous, or support both styles?
+
+Should geography use a grid, a graph of locations, free movement, or different
+models in different clients?
+
+How much tactical movement belongs in the browser RPG?
+
+Which interactions must work through a text-first, low-bandwidth interface?
+
+---
+
 # Institutions
 
 ## Guilds
@@ -248,6 +276,45 @@ What forms of exchange should remain local?
 
 Which should become global?
 
+Should prices be fixed, administered, negotiated, market-derived, or selected
+by each experiment?
+
+How should pricing mechanisms remain understandable and contestable?
+
+Should tokens remain indivisible while material or market positions may be
+fractional?
+
+What roles, if any, should scarcity tiers, limited supplies, seasonal markets,
+and non-player market participants have?
+
+How should experiments avoid implying ownership of real commodities,
+securities, cryptocurrencies, or fiat currency?
+
+---
+
+## Recognition And Scores
+
+Which contribution views help players understand their participation?
+
+Should quest-taking, quest-giving, craft, research, exchange, and stewardship
+remain separate measures?
+
+When do leaderboards or composite scores distort cooperation and invisible
+forms of value?
+
+Can recognition emphasize provenance, milestones, and community history rather
+than rank?
+
+Which achievements must remain non-transferable to prevent identity,
+reputation, care, or recovery from becoming financialized?
+
+Should participation rewards be capped, diminished, rotated, or governed by
+community-specific rules?
+
+When does a cooperative resource pool become mutual aid, a treasury, a
+regulated financial activity, or another institution requiring external
+review?
+
 ---
 
 ## Stewardship
@@ -300,6 +367,17 @@ Can unsuccessful experiments become valuable educational resources?
 
 # Technology
 
+## Inventory And Workbench
+
+Which distinctions should the inventory projection expose?
+
+Should resources, tokens, recipes, contracts, relics, books, research, and
+crafted goods behave differently in the interface?
+
+Which workbench operations are universal, and which belong only to a client?
+
+Should direct manipulation, commands, or both be supported?
+
 ## Artificial Intelligence
 
 How should AI participate?
@@ -315,6 +393,21 @@ World simulation?
 Content generation?
 
 How can AI support creativity without replacing human imagination?
+
+---
+
+## Social Systems
+
+Which communication, negotiation, alliance, and shared-pool features are
+actually needed?
+
+How should community contracts distribute authority, responsibility, and
+rewards?
+
+What safeguards reduce coercion, fraud, harassment, and misleading offers?
+
+Can events and seasons add variety without creating manipulative urgency or
+temporary-item pressure?
 
 ---
 

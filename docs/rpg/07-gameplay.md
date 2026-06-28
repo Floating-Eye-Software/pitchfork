@@ -29,6 +29,16 @@ This loop gradually expands throughout the game without fundamentally changing.
 
 As the player matures, the scale of their participation grows from individual actions to entire communities.
 
+At its most compact, the resource loop is:
+
+```text
+Gather → Transform → Craft → Exchange → Build → Steward
+```
+
+Not every session must include every step. The sequence is a design check: a
+resource should have a meaningful path toward shared capability and continuing
+care, not merely accumulation.
+
 ---
 
 # Exploration
@@ -277,6 +287,43 @@ Players gradually unlock:
 
 Knowledge becomes a more important form of progression than equipment alone.
 
+The original design considered conventional attributes such as strength,
+dexterity, intelligence, charisma, and luck. Those attributes are not the
+current progression model. Character development should instead emerge through
+demonstrated participation in domains such as:
+
+* craftsmanship,
+* research,
+* stewardship,
+* teaching,
+* exploration,
+* governance,
+* reputation,
+* and mentorship.
+
+The exact representation remains a product decision. It may combine learned
+capabilities, relationships, access, historical contributions, and
+player-chosen identity without reducing the character to one composite level.
+
+## Contributions And Achievements
+
+Important accomplishments may leave persistent achievement artifacts rather
+than fungible experience points.
+
+Examples include:
+
+* a first discovery,
+* a completed expedition,
+* an ecosystem restoration,
+* a teaching lineage,
+* a founded institution,
+* or a community's first successful ritual.
+
+These records preserve provenance and tell the history of the world. Interfaces
+may provide separate views of gathering, craft, contract fulfillment,
+quest-giving, exchange, research, and stewardship, but the game should avoid
+collapsing unlike contributions into a single definition of success.
+
 ---
 
 # Cooperation
@@ -343,6 +390,31 @@ Players participate in an ongoing civilization rather than repeatedly restarting
 
 ---
 
+# Browser Interaction And Inventory
+
+The initial client should remain lightweight, text-friendly, and usable over a
+low-bandwidth browser connection. A MUD-like command or event stream may
+coexist with maps and direct manipulation; neither presentation should become a
+domain requirement.
+
+Inventory is not only a backpack. It is a player-facing projection that may
+distinguish:
+
+* resources and symbolic materials,
+* tokens and magical containers,
+* recipes and other learned knowledge,
+* contracts and obligations,
+* relics and crafted goods,
+* books, records, and research,
+* and items temporarily arranged for transformation.
+
+A workbench can provide a temporary composition area for operations such as
+Create, Fill, Empty, combining, and crafting. Stacking, sorting, drag-and-drop,
+slot shapes, and badges are interface choices rather than rules of the
+underlying object model.
+
+---
+
 # Many Ways to Play
 
 There is no single correct style of play.
@@ -363,6 +435,12 @@ A player may become:
 * or something entirely new.
 
 The game should encourage players to discover their own role within the world.
+
+These roles are archetypes, not locked classes. Factions may likewise represent
+traditions or philosophies—cultivation, scholarship, action, reflection,
+maintenance, coordination—rather than biological races or permanent character
+constraints. Players and communities should be able to combine, reinterpret,
+or establish them through play.
 
 ---
 
