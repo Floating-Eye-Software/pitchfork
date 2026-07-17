@@ -1,0 +1,84 @@
+<html>
+<head>
+<title>Git history vs Blockchain</title>
+<style>
+body {
+    margin: 20px;
+}
+h4 {
+    font-family: sans-serif;
+    margin: 0;
+}
+#root {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.conversation {
+    border: 1px solid black;
+    padding: 20px;
+    background-color: #f3f3f3;
+}
+.message {
+    white-space: pre-wrap;
+    margin: 20px 0;
+}
+.author {
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+.author::first-letter {
+    text-transform: uppercase;
+}
+
+</style>
+<script>
+var jsonData = [{"title":"Git history vs Blockchain","current_node":"89a27fba-de0b-42f6-8ceb-a0703cddcc12","mapping":{"02f5b9d6-6c7e-4b06-bc6a-0b8099252097":{"id":"02f5b9d6-6c7e-4b06-bc6a-0b8099252097","message":{"author":{"name":null,"role":"user"},"content":{"content_type":"text","parts":["I guess we need settled contracts and their ingredients to remain immutable for economic validity. But my personal entries should remain mutable, no? Actually, I see it now. I am not talking about changing records, I am talking about replacing children with new versions."]},"create_time":1782649437.585,"id":"02f5b9d6-6c7e-4b06-bc6a-0b8099252097","metadata":{"serialization_metadata":{"custom_symbol_offsets":[]}}},"parent":"8206185c-b978-4c8e-9916-bedb35ad08a3"},"3cca17e0-79eb-43ce-8e09-10ffc41c1d4c":{"id":"3cca17e0-79eb-43ce-8e09-10ffc41c1d4c","message":{"author":{"name":null,"role":"assistant"},"content":{"content_type":"text","parts":["If you meant **Git history**, that's a great comparison. They do share an important idea, but they solve different problems.\n\n| Git history | Blockchain |\n|---|---|\n| A chain of commits | A chain of blocks |\n| Each commit has a cryptographic hash | Each block has a cryptographic hash |\n| Each commit references its parent commit(s) | Each block references the previous block's hash |\n| Designed for version control | Designed for decentralized consensus and an immutable ledger |\n| Anyone with permission can rewrite history (e.g. rebase, force-push) | History is intended to be practically immutable once confirmed |\n| Usually maintained by trusted collaborators | Maintained by many independent participants who don't necessarily trust one another |\n\n### The similarity\n\nBoth are essentially **linked data structures authenticated by cryptographic hashes**.\n\nFor example, in Git:\n\n```\nCommit C\nhash = H(files, metadata, parent=B)\n\n\u2193 parent\n\nCommit B\nhash = H(files, metadata, parent=A)\n\n\u2193 parent\n\nCommit A\n```\n\nChanging Commit A changes its hash, which invalidates B, which invalidates C.\n\nA blockchain works similarly:\n\n```\nBlock 103\nhash = H(transactions, previous_hash=102)\n\n\u2193\n\nBlock 102\nhash = H(transactions, previous_hash=101)\n\n\u2193\n\nBlock 101\n```\n\nChanging Block 101 changes every subsequent block's hashes.\n\n### The key difference\n\nThe difficult problem blockchain solves isn't \"how do I link data with hashes?\" Git already does that.\n\nThe difficult problem is:\n\n> **How do thousands of strangers agree on a single history without trusting a central authority?**\n\nTo solve that, blockchains add mechanisms like:\n\n- consensus algorithms (e.g. \ue200entity\ue202[\"scientific_concept\",\"Proof of Work\",\"blockchain consensus mechanism\"]\ue201 or \ue200entity\ue202[\"scientific_concept\",\"Proof of Stake\",\"blockchain consensus mechanism\"]\ue201),\n- distributed replication,\n- economic incentives,\n- validation rules,\n- cryptographic signatures for transactions.\n\nGit doesn't need any of that because there is no global consensus. If two developers create different commits at the same time, Git simply records two branches and lets humans decide how to merge them.\n\n### A useful way to think about it\n\n- **Git** answers: \"What is the history of this project's files?\"\n- **Blockchain** answers: \"What history do all participants in this network agree is the official one?\"\n\nSo you can think of a blockchain as **a Git-like hash-linked history plus a decentralized consensus protocol**. The hash chain provides tamper evidence; the consensus protocol is what makes a blockchain distinct."]},"create_time":1782610075.149025,"id":"3cca17e0-79eb-43ce-8e09-10ffc41c1d4c","metadata":{"code_blocks":{"0":{"edited":false,"id":"pf7qgl","preview_language":null,"previewable":false},"1":{"edited":false,"id":"pxaksh","preview_language":null,"previewable":false}},"content_references":[{"alt":"Proof of Work","entity_data":null,"entity_index":null,"extra_params":{"disambiguation":"blockchain consensus mechanism"},"id":"LjiAF2khIQdnJ5I-","metadata":null,"name":"Proof of Work","notes":null,"prefix":null,"prompt_text":"Proof of Work","type":"entity"},{"alt":"Proof of Stake","entity_data":null,"entity_index":null,"extra_params":{"disambiguation":"blockchain consensus mechanism"},"id":"77Jgpjo9HVAVeOGB","metadata":null,"name":"Proof of Stake","notes":null,"prefix":null,"prompt_text":"Proof of Stake","type":"entity"}],"model_slug":"gpt-5-5","parent_id":"48f3b888-ad64-4a1e-bf2d-ab6217b65905"}},"parent":"bbb21dcb-db14-45a5-879d-5836e3013ebd"},"3f1b4c86-52d2-485c-9efe-291c4b8cf7fe":{"id":"3f1b4c86-52d2-485c-9efe-291c4b8cf7fe","message":null,"parent":null},"8206185c-b978-4c8e-9916-bedb35ad08a3":{"id":"8206185c-b978-4c8e-9916-bedb35ad08a3","message":{"author":{"name":null,"role":"assistant"},"content":{"content_type":"text","parts":["Exactly. Based on what you've described about Pitchfork, a blockchain would likely add complexity without providing meaningful benefits.\n\nA hash-linked ledger (very similar to Git's commit history) is probably a better fit.\n\nFor example:\n\n```text\nEntry 1\nHash: a8f3...\nParent: null\n\n\u2193\n\nEntry 2\nHash: c91e...\nParent: a8f3...\n\n\u2193\n\nEntry 3\nHash: 4d72...\nParent: c91e...\n```\n\nEach entry contains:\n- The data (your artifact, event, record, etc.)\n- A timestamp\n- Metadata\n- The hash of the previous entry\n- Its own hash computed over all of the above\n\nThat gives you:\n\n- **Tamper evidence.** If someone edits an old entry, every subsequent hash changes.\n- **Chronological integrity.** You can prove the sequence of events.\n- **Fast verification.** Recompute the chain to verify nothing changed.\n\nWhat you *don't* need if Pitchfork has a single authoritative creator or server:\n\n- Mining\n- Validators\n- Tokens or cryptocurrency\n- Consensus algorithms\n- Distributed replication\n- Blocks containing batches of transactions\n\nThose exist because blockchains solve the problem of *multiple mutually untrusted writers*. If Pitchfork has one trusted authority producing the ledger\u2014or even a small set of trusted services\u2014you already know who is allowed to append records.\n\n### You can think of it as an append-only Merkle log\n\nGit is an append-only directed acyclic graph (DAG) of commits. A blockchain is an append-only chain with decentralized consensus. Pitchfork could simply be:\n\n```\nLedger\n \u251c\u2500\u2500 Entry 1\n \u251c\u2500\u2500 Entry 2\n \u251c\u2500\u2500 Entry 3\n \u2514\u2500\u2500 ...\n```\n\nwhere every entry cryptographically commits to the previous one.\n\nIf, in the future, you want stronger guarantees, you can periodically \"anchor\" the current ledger head by publishing its latest hash somewhere external (for example, in a public transparency log or another immutable medium). Then anyone can verify that the ledger existed in that exact state at that point in time without requiring a full blockchain.\n\nFor a system like Pitchfork that creates unique provenance records rather than coordinating independent participants, a **hash-linked append-only ledger** is typically the simpler and more appropriate architecture."]},"create_time":1782610323.726688,"id":"8206185c-b978-4c8e-9916-bedb35ad08a3","metadata":{"code_blocks":{"0":{"edited":false,"id":"7m2wtu","preview_language":null,"previewable":false},"1":{"edited":false,"id":"szsdid","preview_language":null,"previewable":false}},"content_references":[],"model_slug":"gpt-5-5","parent_id":"d91195b9-923c-40a2-aebd-88814ebb360c"}},"parent":"bbb2135d-4705-4bbf-9862-370b11c0869a"},"89a27fba-de0b-42f6-8ceb-a0703cddcc12":{"id":"89a27fba-de0b-42f6-8ceb-a0703cddcc12","message":{"author":{"name":null,"role":"assistant"},"content":{"content_type":"text","parts":["I think you've hit on an important distinction. There are actually three different operations that often get conflated:\n\n1. **Mutating a record** (bad for provenance)\n2. **Appending a new record** (good)\n3. **Changing which record is considered the current child** (also good)\n\nFor Pitchfork, I would avoid #1 almost entirely.\n\nSuppose you have:\n\n```text\nRecipe v1\n  \u2514\u2500\u2500 Contract A\n```\n\nYou discover the recipe has an error. Don't edit it.\n\nInstead:\n\n```text\nRecipe v1\n  \u2514\u2500\u2500 Contract A\n\nRecipe v2\n```\n\nNow any future contracts reference `Recipe v2`.\n\nIf Contract A was already settled, it forever points to Recipe v1. Its economics remain reproducible.\n\nLikewise for a personal journal entry:\n\n```text\nJournal Entry v1\n```\n\nLater you revise it:\n\n```text\nJournal Entry v1\n      \u2502\n      \u25bc\nJournal Entry v2\n```\n\nYou aren't changing v1. You're creating a successor.\n\nThe UI can simply resolve \"current version\" by following the latest successor.\n\n### This is essentially Git's model\n\nA Git commit is never edited. When you amend a commit, Git doesn't mutate it\u2014it creates a **new commit** and moves the branch pointer.\n\n```text\nmain\n  \u2502\n  \u25bc\nA \u2192 B \u2192 C\n\namend C\n\nA \u2192 B \u2192 C\n         \\\n          C'\n           \u25b2\n         main\n```\n\nThe old commit still exists (until garbage collection). The branch now points somewhere else.\n\n### That suggests an elegant model for Pitchfork\n\nEach object has two identities:\n\n- **Permanent ID** \u2014 \"The sourdough starter.\"\n- **Version ID** \u2014 \"The sourdough starter as it existed on 2026-06-28.\"\n\nContracts, settlements, invoices, and historical events always reference the **version ID**.\n\nThe UI usually shows the **Permanent ID**, which resolves to the latest version.\n\nThat gives you:\n\n- reproducible economics,\n- immutable history,\n- editable living documents,\n- simple user experience.\n\n### You may not even need an immutable ledger for everything\n\nAnother realization is that not every object deserves the same guarantees.\n\nYou could classify them like this:\n\n| Object | Mutable? | Versioned? | Immutable after settlement? |\n|--------|----------|------------|-----------------------------|\n| Draft notes | Yes | Optional | No |\n| Personal journal | No (append versions) | Yes | Previous versions remain |\n| Recipes | No (append versions) | Yes | Yes |\n| Ingredients | No (append versions) | Yes | Yes if referenced |\n| Contracts | Never | Rarely | Always |\n| Settlements | Never | Never | Always |\n\nSo the immutability boundary isn't \"everything.\" It's the **economic record**.\n\nEverything upstream can evolve through versioning. Once a contract references specific versions of ingredients, recipes, prices, or other artifacts, that reference becomes frozen. The contract isn't saying \"I used the current recipe\"; it's saying \"I used Recipe version `abc123`.\"\n\nThat separation between **living knowledge** and **settled facts** is a very robust design. It lets users improve and refine their work indefinitely while ensuring that anything with financial or legal significance remains exactly reproducible years later."]},"create_time":1782649439.046869,"id":"89a27fba-de0b-42f6-8ceb-a0703cddcc12","metadata":{"code_blocks":{"0":{"edited":false,"id":"tgshy2","preview_language":null,"previewable":false},"1":{"edited":false,"id":"5vz0el","preview_language":null,"previewable":false},"2":{"edited":false,"id":"g0eacm","preview_language":null,"previewable":false},"3":{"edited":false,"id":"a0vhsq","preview_language":null,"previewable":false},"4":{"edited":false,"id":"c7cwo9","preview_language":null,"previewable":false}},"content_references":[],"model_slug":"gpt-5-5","parent_id":"004e9bb3-6c3f-449a-96ff-87597777bc84"}},"parent":"02f5b9d6-6c7e-4b06-bc6a-0b8099252097"},"bbb2135d-4705-4bbf-9862-370b11c0869a":{"id":"bbb2135d-4705-4bbf-9862-370b11c0869a","message":{"author":{"name":null,"role":"user"},"content":{"content_type":"text","parts":["So the Pitchfork ledger doesn't need to be a blockchain then because we're not trying to achieve consensus this is unique data that were creating"]},"create_time":1782610323.540303,"id":"bbb2135d-4705-4bbf-9862-370b11c0869a","metadata":{"content_references":[],"image_results":[],"model_slug":"gpt-5-5"}},"parent":"3cca17e0-79eb-43ce-8e09-10ffc41c1d4c"},"bbb21dcb-db14-45a5-879d-5836e3013ebd":{"id":"bbb21dcb-db14-45a5-879d-5836e3013ebd","message":{"author":{"name":null,"role":"user"},"content":{"content_type":"text","parts":["What's the difference between a get history and a blockchain they're both lists with hash codes"]},"create_time":1782610074.978164,"id":"bbb21dcb-db14-45a5-879d-5836e3013ebd","metadata":{"content_references":[],"image_results":[],"model_slug":"gpt-5-5"}},"parent":"3f1b4c86-52d2-485c-9efe-291c4b8cf7fe"}}}]
+function getConversationMessages(conversation) {
+    var messages = [];
+    var currentNode = conversation.current_node;
+    while (currentNode != null) {
+        var node = conversation.mapping[currentNode];
+        if (node.message &&
+            node.message.content &&
+            node.message.content.content_type == "text"
+            && node.message.content.parts.length > 0 &&
+            node.message.content.parts[0].length > 0 &&
+            node.message.author.role != "system") {
+            author = node.message.author.role;
+            if (author === "assistant") {
+                author = "ChatGPT";
+            }
+            messages.push({ author, text: node.message.content.parts[0] });
+        }
+        currentNode = node.parent;
+    }
+    return messages.reverse();
+}
+
+// on load, add messages to the root div
+window.onload = function() {
+    var root = document.getElementById("root");
+    for (var i = 0; i < jsonData.length; i++) {
+        var conversation = jsonData[i];
+        var messages = getConversationMessages(conversation);
+        var div = document.createElement("div");
+        div.className = "conversation";
+        div.innerHTML = "<h4>" + conversation.title + "</h4>";
+        for (var j = 0; j < messages.length; j++) {
+            var message = document.createElement("pre");
+            message.className = "message";
+            message.innerHTML = `<div class="author">${messages[j].author}</div><div>${messages[j].text}</div>`;
+            div.appendChild(message);
+        }
+        root.appendChild(div);
+    }
+}
+
+</script>
+</head>
+<body>
+<div id="root">
+</div>
+</body>
+</html>

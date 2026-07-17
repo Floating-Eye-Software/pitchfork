@@ -13,3 +13,4 @@ todo-011,done,0005-rpg-lore-preservation,rpg,P1,todo-010,completed magic commerc
 todo-012,done,0005-rpg-lore-preservation,rpg,P1,todo-011,completed economic testbed research platform product roadmap and open questions
 todo-013,done,0005-rpg-lore-preservation,rpg,P1,todo-012,reconciled RPG documents with canonical architecture symbolic terminology and repository ownership boundaries
 todo-014,done,0005-rpg-lore-preservation,rpg,P1,todo-013,removed superseded sources and completed editorial link workflow and acceptance preparation
+todo-015,ready,0008-pitchfork-transcript-resolution,workflow,P0,,resolve ledger cryptographic proof evidence from transcript and merkle-tree reference

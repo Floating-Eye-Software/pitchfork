@@ -6,3 +6,4 @@ id,status,track,priority,depends_on,notes
 0005-rpg-lore-preservation,blocked,rpg,P1,0002-pitchfork-rpg-client-spec-update|0006-symbolic-frequency-and-crafting-foundation,replacement RPG documents and migration are complete; closure waits for deferred plan 0002 review
 0006-symbolic-frequency-and-crafting-foundation,done,foundation,P1,,Pitchfork symbolic frequency and symbolic crafting foundation documents accepted and complete
 0007-rpg-document-consolidation,blocked,rpg,P1,0005-rpg-lore-preservation,legacy consolidation and retirement are complete; closure waits for deferred plan 0005 review
+0008-pitchfork-transcript-resolution,doing,workflow,P0,,resolve Pitchfork transcript notes into ledger cryptographic proof requirements during emergency recovery
